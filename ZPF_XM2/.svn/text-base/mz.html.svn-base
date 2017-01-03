@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>PRO 6Plus-概述-魅族</title>
+		<link rel="shortcut icon" href="http://www3.res.meizu.com/static/cn/global/images/favicon_19fbf41.ico" type="image/x-icon">
+		<link rel="stylesheet" type="text/css" href="css/reset.css"/>
+		<link rel="stylesheet" type="text/css" href="css/mzStyle.css"/>
+		<link rel="stylesheet" type="text/css" href="css/jquery.fullPage.css"/>
+		<script src="js/jquery_1.9.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/jquery.fullPage.min.js" type="text/javascript" charset="utf-8"></script>
+		<script type="text/javascript">
+			$(function(){
+				
+				$("#fullpage").fullpage({
+					continuousVertical: true,
+					navigationPosition: "right",
+					navigation:true,
+					verticalCentered:true,
+					resize:true,
+					easing:"easeOutQuad",
+					navigationColor:"#fff",
+					afterRender:function(){
+						$(".img").animate({marginTop:"-280px",marginLeft:"-108px"},2000),
+						$(".pro").animate({marginTop:"-50px",opacity:"1"},1000,function(){
+							$(".section1_content2 p").animate({marginTop:"0px",opacity:"1"},1000)
+						})
+					},
+					anchors: ['page1', 'page2', 'page3', 'page4', 'page5', 'page6', 'page7', 'page8', 'page9', 'page10'],
+					afterLoad:function(anchorLink, index){
+						if (index == 1) {
+							$(".img").animate({marginTop:"-280px",marginLeft:"-108px"},2000),
+							$(".pro").animate({marginTop:"-50px",opacity:"1"},1000,function(){
+								$(".section1_content2 p").animate({marginTop:"0px",opacity:"1"},1000)
+							})
+						}
+						if (index == 2) {
+							$(".bg_yu").fadeIn("slow","linear",function(){
+								$(".bg_yu").fadeOut("slow",function(){
+									$(".yu").fadeIn("slow","linear",function(){
+										$(".p1").animate({opacity:"1"},3000,function(){
+											$(".p2").animate({marginTop:"-180px",opacity:"1"},900,function(){
+												$(".section2_content1 ul").animate({top:"100px",opacity:"1"},900)
+											})
+										})
+									});
+								})
+							})
+						}
+						if (index == 3) {
+							$(".p3").animate({marginTop:"-250px",opacity:"1"},900,function(){
+								$(".p4").animate({marginTop:"-200px",opacity:"1"},900)
+							})
+						}
+						if (index == 4) {
+							$(".p5").animate({marginTop:"-200px",opacity:"1"},900,function(){
+								$(".p6").animate({marginTop:"0px",opacity:"1"},900)
+							})
+						}
+						if (index == 5) {
+							$(".p7").animate({marginTop:"-250px",opacity:"1"},1000,function(){
+								$(".p8").animate({marginTop:"0px",opacity:"1"},1000,function(){
+									$(".li1").animate({marginTop:"0px",opacity:"1"},1000,function(){
+										$(".li2").animate({marginTop:"0px",opacity:"1"},1000,function(){
+											$(".li3").animate({marginTop:"0px",opacity:"1"},1000,function(){
+												$(".li4").animate({marginTop:"0px",opacity:"1"},1000)
+											})
+										})
+									})
+								})
+							})
+						}
+						if (index == 6) {
+							$(".p9").animate({marginTop:"-200px",opacity:"1"},900,function(){
+								$(".p10").animate({marginTop:"0px",opacity:"1"},900)
+							})
+						}
+						if (index == 7) {
+							$(".p11").animate({marginTop:"-280px",opacity:"1"},900,function(){
+								$(".p12").animate({marginTop:"0px",opacity:"1"},900)
+							})
+						}
+						if (index == 8) {
+							$(".img1").animate({top:"0px"},2000)
+							$(".img2").animate({top:"-50px"},2000)
+							$(".img3").animate({top:"-100px"},2000)
+							$(".img4").animate({top:"-150px"},2000)
+							$(".img5").animate({top:"-200px"},2000)
+							$(".img6").animate({top:"-250px"},2000)
+							$(".img7").animate({top:"-300px"},2000)
+							$(".p19").animate({marginTop:"0px",opacity:"1"},2000)
+							$(".p20").animate({marginTop:"0px",opacity:"1"},2000)
+							$(".p21").animate({marginTop:"0px",opacity:"1"},2000)
+							$(".p22").animate({marginTop:"0px",opacity:"1"},2000)
+							$(".p23").animate({marginTop:"0px",opacity:"1"},2000)
+						}
+						if (index == 9) {
+							$(".p15").animate({marginTop:"100px",opacity:"1"},900,function(){
+								$(".p16").animate({marginTop:"0px",opacity:"1"},900)
+							})
+						}
+						if (index == 10) {
+							$(".p17").animate({marginTop:"-100px",opacity:"1"},900,function(){
+								$(".p18").animate({marginTop:"0px",opacity:"1"},900)
+							})
+						}
+					},
+					onLeave:function(index,nextIndex,direction){
+						if (index == 1) {
+							$(".img").animate({marginTop:"-220px"},200),
+							$(".img").animate({marginLeft:"0px"},200),
+							$(".section1_content2 p").animate({marginTop:"0px",opacity:"0"},200,function(){
+								$(".pro").animate({marginTop:"50px",opacity:"0"},200)
+							})
+						}
+						if (index == 2) {
+							$(".bg_yu").fadeOut("fast");
+							$(".yu").fadeOut("fast");
+							$(".section2_content1 ul").animate({top:"300px",opacity:"0"},200,function(){
+								$(".p2").animate({opacity:"0"},200,function(){
+									$(".p1").animate({marginTop:"-80px",opacity:"0"},200)
+								})
+							})
+						}
+						if (index == 3) {
+							$(".p4").animate({marginTop:"-50px",opacity:"0"},200,function(){
+								$(".p3").animate({marginTop:"0px",opacity:"0"},200)
+							})
+						}
+						if (index == 4) {
+							$(".p6").animate({marginTop:"200px",opacity:"0"},200,function(){
+								$(".p5").animate({marginTop:"200px",opacity:"0"},200)
+							})
+						}
+						if (index == 5) {
+							$(".p7").animate({opacity:"0"},200,function(){
+								$(".p8").animate({opacity:"0"},200,function(){
+									$(".li1").animate({opacity:"0"},200,function(){
+										$(".li2").animate({opacity:"0"},200,function(){
+											$(".li3").animate({opacity:"0"},200,function(){
+												$(".li4").animate({opacity:"0"},200)
+											})
+										})
+									})
+								})
+							})
+						}
+						if (index == 6) {
+							$(".p9").animate({marginTop:"0px",opacity:"0"},200,function(){
+								$(".p10").animate({marginTop:"100px",opacity:"0"},200)
+							})
+						}
+						if (index == 7) {
+							$(".p12").animate({marginTop:"100px",opacity:"0"},200,function(){
+								$(".p11").animate({marginTop:"200px",opacity:"0"},200)
+							})
+						}
+						if (index == 8) {
+							$(".img1").animate({top:"0px"},200)
+							$(".img2").animate({top:"0px"},200)
+							$(".img3").animate({top:"0px"},200)
+							$(".img4").animate({top:"0px"},200)
+							$(".img5").animate({top:"0px"},200)
+							$(".img6").animate({top:"0px"},200)
+							$(".img7").animate({top:"0px"},200)
+							$(".p19").animate({marginTop:"100px",opacity:"0"},200)
+							$(".p20").animate({marginTop:"100px",opacity:"0"},200)
+							$(".p21").animate({marginTop:"100px",opacity:"0"},200)
+							$(".p22").animate({marginTop:"100px",opacity:"0"},200)
+							$(".p23").animate({marginTop:"100px",opacity:"0"},200)
+						}
+						if (index == 9) {
+							$(".p15").animate({marginTop:"200px",opacity:"0"},200,function(){
+								$(".p16").animate({marginTop:"-100px",opacity:"0"},200)
+							})
+						}
+						if (index == 10) {
+							$(".p18").animate({marginTop:"100px",opacity:"0"},200,function(){
+								$(".p17").animate({marginTop:"0px",opacity:"0"},200)
+							})
+						}
+					}
+				})
+			})
+		</script>
+	</head>
+	<body>
+		<div id="fullpage">
+			<div class="section section1">
+				<div class="section1_bg">
+					<div class="section_content1">
+						<img src = "img/pro6/slogan-phone_83c4291.png" class="img"/>
+					</div>
+					<img src="img/pro6/slogan-np_87141dc.jpg" class="bgimg">
+					<div class="section1_content2">
+						<img src="img/pro6/slogan-logo_fdd55ef.png" class="pro"/>
+						<p>越强大，越冷静</p>
+					</div>
+				</div>
+			</div>
+			<div class="section">
+				<div class="section2_bg">
+					<div class="section2_content1">
+						<div id="s2-font-1">
+							<p class="p1">一眼便让你沉浸</p>
+						</div>
+						<div id="s2-font-2">
+							<p class="p2">我们擅长于制造惊喜。这块屏幕不只是参数党的狂欢，WQHD 分辨率的彻底升级将在超高亮度、惊艳<br/>
+								色彩、强对比度各方面捕获你的芳心。AOD 息屏显示技术，时间日期电量通知置于之上，PRO 6<br/>
+								 Plus 将为你带来无限遐想。
+							</p>
+						</div>
+						<ul>
+							<li>
+								<p class="bigFont">5.7</p>
+								<p class="smFont">英寸</p>
+								<hr />
+								<p class="bigFont">600cd/m²</p>
+								<p class="smFont">峰值亮度</p>
+							</li>
+							<li>
+								<p class="bigFont">518</p>
+								<p class="smFont">PPI</p>
+								<hr />
+								<p class="bigFont">10000:1</p>
+								<p class="smFont">强度比度</p>
+							</li>
+							<li>
+								<p class="bigFont">103%</p>
+								<p class="smFont">NTSC色域</p>
+								<hr />
+								<p class="bigFont">2560*1440</p>
+								<p class="smFont">高分辨率</p>
+							</li>
+						</ul>
+					</div>
+					<img src="img/pro6/screen_23570a5.jpg" style="display: none;" class="yu"/>
+					<img src="img/pro6/screen-pic_856dcdc.jpg" class="bg_yu" style="display: none;"/>
+				</div>
+			</div>
+			<div class="section">
+				<div class="section3_bg">
+					<div class="section3_content">
+						<p class="f42 p3">让人上瘾的独特手感</p><br/>
+                    	<p class="f16 p4">刚柔并济，这是我们打动你的方式。精准的硬朗直角下，依<br/>旧掩盖不住 PRO 6 Plus 超凡脱俗的微弧设计。
+                    		重新设计的机<br/>身曲线，30 道工序与 150 小时的精雕细琢，造就了 PRO 6<br/> Plus 独一无二的细节之美。CD 纹路摄像头、环
+                    		形闪光灯、<br/>极简设计天线，PRO 6 Plus 不会让任何一个出色的细节从你<br/>手中溜走。
+                    	</p>
+					</div>
+					<img src="img/pro6/feel_f0c4383.jpg"/>
+				</div>
+			</div>
+			<div class="section">
+				<div class="section4_bg">
+					<div class="section4_content">
+						<p class="f42 p5">高山仰止，Exynos 8 登场</p><br />
+                    	<p class="f16 p6">峰值频率高达 2.6GHz 的「猫鼬」核心，高效的 SCI 三星互联架构，超越想象的 12 核 GPU，被第二<br />
+                    		代 14nm FinFET 工艺整合在一颗璀璨夺目的旗舰芯片中。这是魅族手机有史以来的最强大脑；面对<br />各种大型游戏和苛刻应用，也是手到擒来。</p>
+					</div>
+					<img src="img/pro6/cpu_0c956e4.jpg"/>
+				</div>
+			</div>
+			<div class="section">
+				<div class="section5_bg">
+					<div class="section5_content0">
+						<p class="f42 p7">快，准，稳<br>轻松达成高赞照片</p><br />
+	                    <p class="f16 p8">有别以往，全新 CD 纹工艺将让相机与手机一样备受瞩<br />
+	                    	目。四轴光学防抖搭配 ƒ/2.0 大光圈及 6P 镜头，即使身<br />
+	                    	处夜景 PRO 6 Plus 也美不胜收。新一代高性能 ISP 图<br />
+	                    	像处理器还大幅提升了色彩、锐度及降噪表现，拍下照<br />
+	                    	片或是视频，都经得起细看。
+	                    </p>
+	                    <ul>
+	                    	<li class="li1">
+	                    		<p class="f35">1200万</p>
+	                    		<p class="f14">有效像素</p>
+	                    	</li>
+	                    	<li class="li2">
+	                    		<p class="f35">IMX386 CMOS</p>
+	                    		<p class="f14">索尼定制</p>
+	                    	</li>
+	                    	<li class="li3">
+	                    		<p class="f35">1.25μm</p>
+	                    		<p class="f14">单像素面积</p>
+	                    	</li>
+	                    	<li class="li4">
+	                    		<p class="f35">10-LED</p>
+	                    		<p class="f14">环形闪光灯</p>
+	                    	</li>
+	                    </ul>
+					</div>
+					<div class="section5_content">
+						<img src="img/pro6/camera-phone_6517ad6.png"/>
+					</div>
+				<img src="img/pro6/camera_a218b21.jpg"/>
+				</div>
+			</div>
+			<div class="section">
+				<div class="section6_bg">
+					<div class="section6_content">
+						<p class="f42 p9">全新一代 Hi-Fi 思路<br>静如处子，动如脱兔</p><br />
+                    	<p class="f16 p10">在 ES9018K2M 的经典声音下，我们还采用定制化 AD45275 的低功耗运放。XFCB 工艺使得 PRO 6 Plus 在超低功<br />耗下也
+                    		能有出色的音频表现。依靠 180MHz 增益带宽和 225V/us 压摆率的出色硬件指标加持，PRO 6 <br />Plus 带来了速度与密度俱
+                    		佳的声音质感，更让 PRO 6 Plus 成为了老烧们眼中爱不释手的玩物。
+                    	</p>
+					</div>
+					<img src="img/pro6/hifi_0b67838.jpg"/>
+				</div>
+			</div>
+			<div class="section">
+				<div class="section7_bg">
+					<div class="section7_content">
+						<p class="f42 p11">3D Press，传承与变革</p><br />
+                    	<p class="f16 p12">优秀的传统必须坚持，所以我们保留了为大家乐道的<br />
+                    		 3D Press——通过按压呼出对应预览结果及手机热键<br />
+                    		 功能。精良的品质需要推敲，所以我们革新并加成了<br />线性重力校准——不惜用双倍时间成本打磨至臻。方
+                    		 <br />寸之间，尽显大观。
+                    	</p>
+					</div>
+					<img src="img/pro6/3dpress_7b96f74.jpg"/>
+				</div>
+			</div>
+			<div class="section">
+				<div class="section8_bg">
+					<div class="section8_content0">
+						<p class="f42 p19">让指纹更安全</p><br />
+                    	<p class="f16 p20">不断优化指纹支付的识别速度及识别率已然成为我们前进的惯性。<br />
+                    		同时，在保证内置芯片可靠性的基础上，我们用特殊的封装技术与<br />
+                    		工艺保留了光路。不仅能在任意方向有效识别指纹，基于 Live<br />
+                    		 Finger Detection™ 的活体检测技术更能实现对真假手指的判定。
+                    	</p><br />
+                    	<img src="img/pro6/mtouch-finger_fa3273f.png" class="p21"/><br />
+                    	<div class="section8_content01">
+                        	<p class="f25 p22">Live Finger Detection™</p>
+                       		<span class="f14 p23">活体检测技术</span>
+                    	</div>
+					</div>
+					<div class="section8_content1" style="display: none;">
+						<p class="f42">心动，触而可及</p><br />
+                    	<p class="f16">特调油墨的丝印盖板与 Ring key 拓展工艺，轻松达成全方位 360<br />
+                    		 度精确指纹识别。然而惊喜绝对不止于此，我们擅长引领科技，<br />
+                    		 Heart Rate Detection 每秒 50 次动态心率检测，控心跳于股掌之<br />
+                    		 间。安全健康，一键守护。
+                    	</p><br />
+                    	<img src="img/pro6/mtouch-heart_d9d9abe.png"/><br />
+                    	<div class="section8_content11">
+	                        <p class="f25">Heart Rate Detection</p>
+	                        <span class="f14">50 次/秒 动态心率检测</span>
+                    	</div>
+					</div>
+					<div class="section8_content">
+						<img src="img/pro6/mtouch-7_944dbc1.png" class="img1"/>
+						<img src="img/pro6/mtouch-6_7d944e3.png" class="img2"/>
+						<img src="img/pro6/mtouch-5_d9c6190.png" class="img3"/>
+						<img src="img/pro6/mtouch-4_6d51cc3.png" class="img4"/>
+						<img src="img/pro6/mtouch-3_2b88fc7.png" class="img5"/>
+						<img src="img/pro6/mtouch-2_4dc3b73.png" class="img6"/>
+						<img src="img/pro6/mtouch-1_b07bf1f.png" class="img7"/>
+					</div>
+					<img src="img/pro6/mtouch_c32ad0f.jpg"/>
+				</div>
+			</div>
+			<div class="section">
+				<div class="section9_bg">
+					<div class="section9_content2">
+						<p class="f42 p15">Type-C + USB 3.1</p><br />
+                    	<p class="f16 p16">PRO 6 Plus 融合 USB 标准新一代技术：Type-C、USB 3.1。从此 USB<br />
+                    		 端口不再区分正反，更支持 5Gbps 传输带宽，1G 数据，十秒传<br />
+                    		 完。数据线也经过重新设计，最高支持 60W 充电；新加入<br />高温、
+                    		 短路主动保护装置，更耐用、更安全。
+                    	</p>
+					</div>
+					<img src="img/pro6/typec_ed9c17b.jpg"/>
+				</div>
+			</div>
+			<div class="section">
+				<div class="section10_bg">
+					<div class="section10_content">
+						<p class="f42 p17">2 倍寿命电池，3 年无忧</p><br />
+                    	<p class="f16 p18">我们深知用户对电池损耗的担忧，为此选用价格更高的 3400mAh <br />
+                    		新型快充电池。900 次循环寿命，约为普通电池 2 倍以上；大数<br />
+                    		据仿真测试表明：日常使用，3 年无忧。对于成本<br />
+                    		的毫不吝惜，造就惊喜的电池寿命。</p>
+					</div>
+					<img src="img/pro6/battery_300dbab.jpg"/>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

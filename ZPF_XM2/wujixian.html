@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>无极限(中国)有限公司</title>
+		<meta name="Copyright" content="无限极（中国）有限公司版权所有" />
+		<link rel="stylesheet" type="text/css" href="css/reset.css"/>
+		<link rel="stylesheet" type="text/css" href="css/wjx.css"/>
+		<script src="js/jquery_1.9.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/index.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/jquery.indexSlidePattern.js" type="text/javascript" charset="utf-8"></script>
+		<script type="text/javascript">
+			$(document).ready(function(e){
+				var opt	={
+				"speed":"fast",	//变换速度,三速度可选 slow,normal,fast;
+				"by":"mouseover",	//触发事件,click或者mouseover;
+				"auto":true,	//是否自动播放;
+				"sec":3000	 		//自动播放间隔;
+				};
+			    $("#demo").IMGDEMO(opt);    
+			});
+			$(function(){
+				$(".nav>ul>li").each(function(index){
+					$(".nav>ul>li").eq(index).mouseover(function(){
+						if (index == 0) {
+							$(".nav-list").eq(index).animate({height:"0px"},500);
+							$(".nav-list-bg").animate({height:"0px"},500);
+						}else{
+							$(".nav-list").eq(index).animate({height:"350px"},500);
+							$(".nav-list-bg").animate({height:"350px"},500);
+						}
+						$(".nav>ul>li").eq(0).removeClass("bgFont");
+						$(this).addClass("bgFont");
+					})
+					$(".nav>ul>li").eq(index).mouseout(function(){
+						$(".nav-list").eq(index).animate({height:"0px"},500);
+						$(this).removeClass("bgFont");
+						$(".nav>ul>li").eq(0).addClass("bgFont");
+					});
+				})
+			})
+		</script>
+	</head>
+	<body>
+		<div id="container">
+			<div class="nav_bg">
+				<div class="logo">
+					<img src="img/wjx/logo.png"/>
+				</div>
+				<div class="nav">
+					<ul>
+						<li class="bgFont">首页</li>
+						<li>走进无极限</li>
+						<li>热点聚焦</li>
+						<li>健康产品</li>
+						<li>健康人生</li>
+						<li>社会责任</li>
+						<li>服务大厅</li>
+					</ul>
+				</div>
+			</div>
+			<div class="nav-list-bg">
+				<div class="nav-list"></div>
+				<div class="nav-list">
+					<ul class="ul">
+						<li>董事长寄语</li>
+						<li>集团概况</li>
+						<li>
+							企业介绍
+							<ul class="nav-list-js">
+								<li>无极限中心</li>
+								<li>研发中心</li>
+								<li>服务中心</li>
+								<li>生产基地</li>
+							</ul>
+						</li>
+						<li>
+							企业文化
+							<ul class="nav-list-js">
+								<li>思利及人</li>
+								<li>自动波</li>
+								<li>永远创业</li>
+							</ul>
+						</li>
+						<li>
+							健康理念
+							<ul class="nav-list-js">
+								<li>解读</li>
+								<li>书籍推广</li>
+							</ul>
+						</li>
+						<li>企业荣誉</li>
+						<li>发展历程</li>
+					</ul>
+					<ul class="ul-bottom">
+						<li>
+							<img src="img/wjx/1480554616880.jpg"/>
+						</li>
+						<li>
+							<img src="img/wjx/1440596689462.jpg"/>
+						</li>
+						<li>
+							<img src="img/wjx/1480929088971.jpg"/>
+						</li>
+					</ul>
+				</div>
+			<div class="nav-list">
+					<ul class="ul">
+						<li>
+							公司动态
+							<ul class="nav-list-js">
+								<li>公司新闻</li>
+								<li>晋升活动</li>
+								<li>海外培训</li>
+								<li>品牌活动</li>
+								<li>规范专区</li>
+							</ul>
+						</li>
+						<li>
+							专题
+							<ul class="nav-list-js">
+								<li>综合专题</li>
+							</ul>
+						</li>
+						<li>
+							地方风采
+							<ul class="nav-list-js">
+								<li>分公司</li>
+								<li>服务中心</li>
+							</ul>
+						</li>
+						<li>
+							媒体报道
+							<ul class="nav-list-js">
+								<li>媒体转载</li>
+								<li>行业动态</li>
+							</ul>
+						</li>
+						<li>视频</li>
+						<li>图库</li>
+					</ul>
+					<ul class="ul-bottom">
+						<li>
+							<img src="img/wjx/1481590702369.jpg"/>
+						</li>
+						<li>
+							<img src="img/wjx/1478253967345.jpg"/>
+						</li>
+						<li>
+							<img src="img/wjx/1477625243467.jpg"/>
+						</li>
+					</ul>
+				</div>
+				<div class="nav-list">
+					<ul class="ul">
+						<li>
+							无极限健康产品
+							<ul class="nav-list-js">
+								<li>关于品牌</li>
+								<li>产品系列</li>
+							</ul>
+						</li>
+						<li>
+							无极限健康产品
+							<ul class="nav-list-js">
+								<li>关于品牌</li>
+								<li>产品系列</li>
+							</ul>
+						</li>
+						<li>
+							心维雅护肤品
+							<ul class="nav-list-js">
+								<li>关于品牌</li>
+								<li>产品系列</li>
+							</ul>
+						</li>
+						<li>
+							享优乐养生用品
+							<ul class="nav-list-js">
+								<li>关于品牌</li>
+								<li>产品系列</li>
+								<li>享优乐天地</li>
+								<li>乐享服务</li>
+							</ul>
+						</li>
+						<li>
+							植雅个人护理品
+							<ul class="nav-list-js">
+								<li>关于品牌</li>
+								<li>产品系列</li>
+							</ul>
+						</li>
+					</ul>
+					<ul class="ul-bottom">
+						<li>
+							<img src="img/wjx/1446012572902.jpg"/>
+						</li>
+						<li>
+							<img src="img/wjx/1481599384960.jpg"/>
+						</li>
+						<li>
+							<img src="img/wjx/1477969222329.jpg"/>
+						</li>
+					</ul>
+				</div>
+				<div class="nav-list">
+					<ul class="ul">
+						<li>
+							解读三平衡三富足三和谐
+						</li>
+						<li>
+							健康生活
+							<ul class="nav-list-js">
+								<li>养生之道</li>
+								<li>专家视野</li>
+							</ul>
+						</li>
+						<li>
+							人物故事
+						</li>
+						<li>
+							心灵之窗
+							<ul class="nav-list-js">
+								<li>新视角</li>
+								<li>讲故事</li>
+							</ul>
+						</li>
+					</ul>
+					<ul class="ul-bottom">
+						<li>
+							<img src="img/wjx/1481002978426.jpg"/>
+						</li>
+						<li>
+							<img src="img/wjx/1481002984831.jpg"/>
+						</li>
+						<li>
+							<img src="img/wjx/1481002990931.jpg"/>
+						</li>
+					</ul>
+				</div>
+				<div class="nav-list">
+					<ul class="ul">
+						<li>
+							公益动态
+						</li>
+						<li>
+							社会责任观
+						</li>
+						<li>
+							公益大事记
+						</li>
+						<li>
+							CSR报告
+							
+						</li>
+						<li>思利及人公益基金会</li>
+					</ul>
+					<ul class="ul-bottom">
+						<li>
+							<img src="img/wjx/1454323433908.jpg"/>
+						</li>
+						<li>
+							<img src="img/wjx/1463379642573.jpg"/>
+						</li>
+						<li>
+							<img src="img/wjx/1440523062400.jpg"/>
+						</li>
+					</ul>
+				</div>
+				<div class="nav-list">
+					<ul class="ul">
+						<li>
+							加入无限极
+							<ul class="nav-list-js">
+								<li>如何成为优惠顾客</li>
+								<li>无限极e帆网</li>
+								<li>无限极(中国)教育网</li>
+								<li>纷享荟商城</li>
+							</ul>
+						</li>
+						<li>
+							客服热线
+							<ul class="nav-list-js">
+								<li>意见反馈</li>
+							</ul>
+						</li>
+						<li>
+							联系我们
+						</li>
+						<li>
+							信息定制
+							<ul class="nav-list-js">
+								<li>短信</li>
+								<li>邮件</li>
+							</ul>
+						</li>
+						<li>
+							个性服务
+							<ul class="nav-list-js">
+								<li>壁纸</li>
+								<li>应用中心</li>
+								<li>数码平台推广</li>
+							</ul>
+						</li>
+					</ul>
+					<ul class="ul-bottom">
+						<li>
+							<img src="img/wjx/1440585498795.jpg"/>
+						</li>
+						<li>
+							<img src="img/wjx/1440584824463.jpg"/>
+						</li>
+						<li>
+							<img src="img/wjx/1476342123838.jpg"/>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="center">
+				 <div class="center_top">
+				  <!-- <==========================================================> -->
+								  <!-- 轮播图开始区域 -->
+				 <!-- <div id="bannar"> -->
+					   <div class="content_middle">
+						   <ul>
+							  <li style="background:url(img/wjx/1480039813183.jpg) no-repeat center center;opacity: 100;filter: alpha(opacity=1);"></li>
+							  <li style="background:url(img/wjx/1480382708730.jpg) no-repeat center center;"></li>
+							  <li style="background:url(img/wjx/1480399475277.jpg) no-repeat center center;"></li>
+							  <li style="background:url(img/wjx/1480399475874.jpg) no-repeat center center;"></li>
+							  <li style="background:url(img/wjx/1480399475916.jpg) no-repeat center center;"></li>
+							  <li style="background:url(img/wjx/1481018248185.jpg) no-repeat center center;"></li>
+						   </ul>
+							<div class="table">
+								<a class="small_active"href="javascript:;"></a>
+								<a href="javascript:;"></a>
+								<a href="javascript:;"></a>
+								<a href="javascript:;"></a>
+								<a href="javascript:;"></a>
+								<a href="javascript:;"></a>
+								 
+							</div>
+					   </div>    	  
+				 </div>    
+			</div>
+			
+			<div id="biaoti">
+				<h2>公司动态</h2>
+			</div>
+			
+			<ul id="demo">
+				<li class="active">
+					<a>
+						<img src="img/wjx/1479170315559.jpg"/>
+					</a>
+					<div>
+						<a class="title">热点聚焦</a>
+						<a>2016世界行走日：上海站</a>
+						<p>12月3日，2016无限极世界行走日上海站已经开走啦！无限极的行走...</p>
+						<a>邀约如何做？快来听《创业吧》！</a>
+						<p>你邀请的不只是一个客户，而是一次成功的机会。</p>
+						<a>告别干燥，甩走头屑，你需要这个！</a>
+						<p>进入冬季，头发开始变得毛躁，头皮天天经受着干燥天气的摧残，甚...</p>
+					</div>
+				</li>
+				<li>
+					<a><img src="img/wjx/1479117498904.jpg"  /></a>
+					<div>
+						<a class="title">产品信息</a>
+						<a>无极限健康产品</a>
+						<p>无限极健康食品，以传统中医理论为指导，结合现代高新技术提取天然植物...</p>
+						<a>享优乐养生用品</a>
+						<p>享优乐以现代科技手段，将传统中医养生理念融入到现代生活方式的方方面面...</p>
+						<a>植雅个人护理</a>
+						<p>植雅个人护理品，源于天然，蕴含天然植物因子——植物甙及其它天然营养精华...</p>
+					</div>
+				</li>
+				<li>
+					<a><img src="img/wjx/kfy.png" /></a>
+					<div>
+						<a class="title">专题报道</a>
+						<a>2016健康责任论坛</a>
+						<p>2016年11月4-11日，政企专家同聚一堂...</p>
+						<a>增健口服液之旅</a>
+						<p>想全方面了解增健口服液？快来增健口服液之旅...</p>
+						<a>望闻问测：你的健康正确吗?</a>
+						<p>说真的你知道你的真实“生理年龄”吗？不知道？来测测...</p>
+					</div>
+				</li>
+				<li>
+					<a><img src="img/wjx/1478508811271.jpg"  /></a>
+					<div>
+						<a class="title">董事长寄语</a>
+						<p>最近两年，我花了不少时间去一些国家的大学交流学习，也到全球一些优秀的企业参观考察，看到了很多以前看不到的东西，深感科技的
+							飞速发展正让世界变得越来越快，人们的思维、习惯和需求等也在变得多元而复杂。
+						</p>
+						<p>对企业和创业者而言，这可能是最坏的时代，因为挑战和变化随时发生；这也是最好的时代，因为机遇和可能无处不在。</p>
+						<p>但无论科技和世界怎样变化，总有些东西是不变的，如人们对创新突破、改造世界的追求不会变，对健康、成功、幸福和快
+							乐的需求不会变，企业发挥自身优势争取顾客的商业本质不会变。
+						</p>
+						<p>......</p>
+					</div>
+				</li>
+				<li>
+					<a><img src="img/wjx/1478882472940.jpg"  /></a>
+					<div>
+						<a class="title">精彩视频/图片</a>
+						<a>【图】直击东方美</a>
+						<p>如果说美人如璞玉，那么这场集训就如最后的雕琢。大家一块儿去探个班吧...</p>
+						<a>2016亲情之旅精彩回团视频新鲜出炉！</a>
+						<p>伙伴们，快来点开视频，跟随2016斐济亲情之旅回顾片...</p>
+						<a>【图】2016亲情之旅：因为家与爱，他们走进了亲情之旅！</a>
+						<p>因女儿的资格转让，邱松涛和爱人余芳英出席斐济之旅，实现了出国的梦想。</p>
+					</div>
+				</li>
+			</ul>
+			
+			
+			<div id="bottom">
+				<div class="bottom_nav">
+					<ul>
+						<li>
+							<ul>
+								<li class="ul-first">走进无极限</li>
+								<li>董事长的话</li>
+								<li>3D体验馆</li>
+								<li>电子刊物</li>
+							</ul>
+						</li>
+						<li>
+							<ul>
+								<li class="ul-first">热点聚焦</li>
+								<li>公司动态</li>
+								<li>专题</li>
+								<li>有氧FM</li>
+								<li>多媒体素材</li>
+							</ul>
+						</li>
+						<li>
+							<ul>
+								<li class="ul-first">健康产品</li>
+								<li>产品系列</li>
+								<li>产品信息</li>
+								<li>促销推广</li>
+							</ul>
+						</li>
+						<li>
+							<ul>
+								<li class="ul-first">服务大厅</li>
+								<li>联系我们</li>
+								<li>客服热线</li>
+								<li>招聘人才</li>
+								<li>业务邮箱</li>
+							</ul>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div id="last">
+				<div class="last_content">
+					<span>李书记健康产品集团</span>
+					<span>国家工商总局直销行业管理</span>
+					<span>产品批次报告查询</span>
+					<span>国际联网备案登记证书</span>
+					<span>版权所有&copy;无极限(中国)[粤ICP备05041458]</span>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
