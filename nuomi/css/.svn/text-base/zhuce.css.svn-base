@@ -1,0 +1,263 @@
+#zhuce_body{
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 600px;
+	overflow: hidden;
+}
+#zhuce_head_bg{
+	width: 1000px;
+	margin: 0 auto;
+	margin-bottom: 40px;
+}
+#zhuce_head_bg img{
+	position: relative;
+	top: 20px;
+}
+#zhuce_head_bg p{
+	font-family: "微软雅黑";
+	font-size: 18px;
+	color: #666;
+	padding-left: 20px;
+	border-left: 1px solid #999999;
+	display: inline;
+	position: relative;
+	top: 10px;
+}
+#zhuce_content_bg{
+	width: 100%;
+	position: relative;
+	top: 30px;
+}
+#zhuce_content{
+	width: 1000px;
+	min-width: 1000px;
+	margin: 0 auto;
+}
+#zhuce_content_left{
+	width: 700px;
+	/*border: 1px solid;*/
+	position: relative;
+	left: 50px;
+}
+form p{
+	line-height: 50px;
+}
+.inp{
+    position: relative;
+    height: 16px;
+    width: 328px;
+    padding: 11px 10px;
+    margin-right: 10px;
+    border: 1px solid #ddd;
+    font-size: 14px;
+    color: #666;
+	padding: 11px 10px;
+}
+form p .label{
+	display: block;
+	float: left;
+    height: 42px;
+    width: 65px;
+    margin-right: 10px;
+    line-height: 42px;
+    font-size: 14px;
+    color: #666;
+    font-weight: 700;
+    text-align: right;
+    position: relative;
+}
+#checkbox{
+	margin-left: 39px;
+}
+#checkbox>label{
+	color: #666;
+    font-size: 12px;
+    margin-left: 5px;
+}
+#checkbox>a{
+	text-decoration: none;
+    color: #1b66c7;
+    font-size: 12px;
+}
+#submit:hover{
+	background-color: #f69;
+}
+#submit{
+	display: block;
+    height: 50px;
+    font-size: 16px;
+    font-weight: 700;
+    cursor: pointer;
+    color: #fff;
+    background-image: none;
+    border-radius: 3px;
+    border: 0;
+    background: #fa6790;
+    position: relative;
+    left: 75px;
+}
+#zhuce_content_right{
+    width: 258px;
+    height: 208px;
+    border: 1px solid #d1eeff;
+    background-color: #f5fbff;
+    margin-top: 40px;
+    float: right;
+    position: relative;
+    top: -400px;
+    font-size: 12px;
+    font-family: Arial,"宋体";
+}
+#zhuce_content_right_h{
+    margin: 0 10px;
+    padding-left: 30px;
+    height: 50px;
+    line-height: 50px;
+    background: url(../img/zhuce/phone.png) left center no-repeat;
+    border-bottom: 1px solid #e6edf2;
+    font-size: 14px;
+    color: #666;
+}
+#zhuce_content_right_text{
+	color: #666;
+    font-size: 12px;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    margin: 10px 10px;
+}
+#zhuce_content_right_warn{
+	font-size: 14px;
+    color: #f18300;
+    font-weight: 700;
+    margin: 10px 10px;
+}
+#zhuce_content_right_last{
+	color: #666;
+    font-size: 12px;
+    margin-top: 5px;
+    margin: 10px 10px;
+}
+#login_link{
+    position: absolute;
+    top: -90px;
+    right: 180px;
+    color: #666;
+}
+#login_link span{
+    font-size: 12px;
+    font-family: Arial,"宋体";
+}
+#login_btn{
+	font-weight: 700;
+    color: #666;
+    height: 32px;
+    width: 64px;
+    border: 0;
+    background: url(../img/zhuce/reg_icons.png) no-repeat 0 -48px;
+	cursor:pointer
+} 
+#footer{
+	width: 100%;
+	position: relative;
+	top: 130px;
+}
+.mod-footer{
+	width: 1000px;
+	margin:0 auto;
+}
+.copy-box{
+	width: 100px;
+	text-align: center;
+	margin: 0 auto;
+	color: #7a77c8;
+	font-size: 12px;
+    font-family: Arial,"宋体";
+}
+#yijian_btn{
+	position: fixed;
+    top: 254px;
+    border-radius: 0;
+    text-decoration: none;
+    display: block;
+    top: 200px;
+    right: -1px;
+    height: 80px;
+    width: 24px;
+    border: 1px solid #dfdfdf;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    background-color: #f7f7f7;
+}
+#yijian{
+    font-size: 12px;
+    font-family: Arial, 宋体;
+    color: #1d61ad;
+    font-size: 12px;
+    width: 16px;
+    margin-top: 10px;
+    margin-left: 7px;
+    cursor: pointer;
+}
+span{
+	font-size: 8px;
+    font-family: Arial, 宋体;
+    color: #CCCCCC;
+}
+#username_tip{
+	position: absolute;
+	line-height: 20px;
+	top: 5px;
+	display: none;
+}
+#phoneNum_tip{
+	position: absolute;
+	line-height: 20px;
+	top: 85px;
+	display: none;
+}
+#password_tip_ul{
+	position: absolute;
+	display: none;
+	top: 215px;
+	left: 440px;
+}
+#password_tip_ul>li{
+	font-size: 8px;
+    color: #CCCCCC;
+}
+#password_flag{
+	position: absolute;
+	top: 225px;
+	left: 440px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

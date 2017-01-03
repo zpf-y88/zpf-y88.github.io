@@ -1,0 +1,965 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>丁丁洋回转自助火锅</title>
+		<link rel="stylesheet" type="text/css" href="css/shangpin.css"/>
+		<link rel="stylesheet" type="text/css" href="css/reset.css"/>
+		<script src="js/shangpin.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+	<body>
+		<div id="big">
+			<div id="header">
+				<div id="top">
+					<ul id="first_city">
+						<li class="left">
+							<ul>
+								<li><a class="right_border">太原</a></li>
+								<li id="big_city"><a href="https://www.nuomi.com/pcindex/main/changecity" >切换城市</a>
+								</li>
+							</ul>
+						</li>
+						<li class="right">
+							<ul>
+								<li><a href="denglu.html" class="right_border">登陆</a></li>
+								<li><a href="zhuce.html" class="right_border">注册</a></li>
+								<li id="shouji"><a href="" class="right_border">手机糯米</a></li>
+								<li><a href="" class="right_border">我的订单</a></li>
+								<li id="list"><a href="" class="right_border">我的糯米</a></li>
+								<li><a href="" class="right_border">最近浏览</a></li>
+								<li id="shangjia"><a href="" class="right_border">我是商家</a></li>
+								<li><a href="https://q.nuomi.com/static/qstore/page/landingpage.html" class="right_border">糯米企业版</a></li>
+								<li><a href="" class="right_border">帮助中心</a></li>
+								<li id="guanzhu"><a href="" class="right_border">关注</a></li>
+								<li><a href="" class="right_border">收藏</a></li>
+								<li><a href="">食品安全</a></li>
+							</ul>
+						</li>
+					</ul>
+					<div id="city">
+						<div id="city_hot">
+							<a>热门城市</a>
+						</div>
+						<div id="city_chose">
+							<ul>
+								<li><a>北京</a></li>
+								<li><a>上海</a></li>
+								<li><a>广州</a></li>
+								<li><a>深圳</a></li>
+								<li><a>天津</a></li>
+								<li><a>杭州</a></li>
+								<li><a>成都</a></li>
+								<li><a>西安</a></li>
+								<li><a>郑州</a></li>
+								<li><a>厦门</a></li>
+								<li><a>青岛</a></li>
+								<li><a>太原</a></li>
+								<li><a>重庆</a></li>
+								<li><a>武汉</a></li>
+								<li><a>南京</a></li>
+								<li><a>沈阳</a></li>
+								<div id="clear"></div>
+							</ul>
+						</div>
+						<div id="city_more">
+							<a>更多城市&gt;</a>
+						</div>
+					</div>
+					<div id="list_xia">
+						<ul>
+							<li><a>我的订单</a></li>
+							<li><a>选座订票</a></li>
+							<li><a>我的收藏</a></li>
+							<li><a>我的评价</a></li>
+							<li><a>我的余额</a></li>
+							<li><a>我的优惠券</a></li>
+							<li><a>账户设置</a></li>
+							<li><a>我的百度</a></li>
+						</ul>
+					</div>
+					<div id="shoujierweima">
+						<img src="img/first/qr-code-text-discount-1x_92cec22.png" />
+					</div>
+					<div id="hezuo">
+						<ul>
+							<li><a>商家合作</a></li>
+							<li><a>我想合作</a></li>
+						</ul>
+					</div>
+					<div id="weixin">
+						<img src="img/first/new-erweima_c0dcfe4.png"/>
+					</div>
+				</div>
+			</div>
+			<div id="contianer">
+				<div id="content">
+					<div id="logo_1">
+						<a href="index.html"><img src="img/first/logo_e53daea.png" style="height: 40px;"/></a>
+					</div>
+					<div id="search">
+						<input type="text" id="search_inp" placeholder="搜索商家或地点:" />
+						<ul>
+							<li><a>聚优惠</a></li>
+							<li><a>梅森凯瑟</a></li>
+							<li><a>万达</a></li>
+						</ul>
+						<div id="search_pic">
+							<img src="img/first/search.svg" style="width: 15px;"/>
+						</div>
+					</div>
+					<div id="search_tb">
+						<ul id="search_tb_ul">
+							<li><a href=""><img src="img/first/tui.svg"/></a></li>
+							<li><a href=""><img src="img/first/pei.svg" id="pei"/></a></li>
+							<li><a href=""><img src="img/first/mony.svg"/></a></li>
+						</ul>
+					</div>
+					<div id="nav">
+						<div id="nav_lanmu">
+							<ul>
+								<li id="nav_fenlei">
+									<span>全部分类</span>
+								</li>
+								<li><a href="index.html" style="list-style: none;text-decoration: none; color: #FFFFFF;">首页</a></li>
+								<li><a>精选品牌</a><img src="img/first/HOT.svg" style="width: 20px;"/></li>
+								<li><a>电影</a><img src="img/first/HOT.svg" style="width: 20px;"/></li>
+								<li><a>酒店</a></li>
+								<li><a>出行</a></li>
+								<li><a>一元抢宝</a></li>
+								<li><a>外卖</a></li>
+								<li><a>今日新单</a></li>
+							</ul>
+						</div>
+					</div>
+					<div id="nav_left">
+						<ul id="nav_left_geshi">
+							<li  id="nav_left_meishi">
+								<a id="nav_left_list">美食</a><span id="nav_left_font"><a>精选品牌</a><a>小吃快餐</a></span>
+								<div id="meishi_list">
+									<ul id="meishi_list_remen">
+										<p>热门分类</p>
+										<li><a class="right_border">精选品牌</a></li>
+										<li><a class="right_border">其他美食</a></li>
+										<li><a class="right_border">火锅</a></li>
+										<li><a class="right_border">小吃快餐</a></li>
+										<li><a class="right_border">自助餐</a></li>
+										<li><a class="right_border">海鲜</a></li>
+										<li><a class="right_border">烧烤/烤肉</a></li>
+										<li><a class="right_border">干锅/香锅</a></li>
+										<li><a class="right_border">甜品</a></li>
+										<li><a class="right_border">蛋糕</a></li>
+										<li><a class="right_border">咖啡</a></li>
+										<li><a class="right_border">婚宴</a></li>
+										<li><a class="right_border">夏日饮品</a></li>
+										<li><a class="right_border">小龙虾</a></li>
+										<li><a class="right_border">酒吧</a></li>
+										<li><a class="right_border">粥店</a></li>
+										<li><a style="color: #999;font-size: 5px; margin-left:10px;">今日新单</a></li>
+									</ul>
+									<ul id="meishi_list_zgc">
+										<p style="color: #000;font-size: 5px;margin-left: 10px;">中国菜</p>
+										<li><a class="right_border">粤菜</a></li>
+										<li><a class="right_border">川湘菜</a></li>
+										<li><a class="right_border">浙江菜</a></li>
+										<li><a class="right_border">北京菜</a></li>
+										<li><a class="right_border">新疆菜</a></li>
+										<li><a class="right_border">东北菜</a></li>
+										<li><a class="right_border">云贵菜</a></li>
+										<li><a class="right_border">鲁菜</a></li>
+										<li><a class="right_border">西北菜</a></li>
+										<li><a class="right_border">素菜</a></li>
+										<li><a class="right_border">创意菜/私房菜</a></li>
+										<li><a class="right_border">台北菜/客家菜</a></li>
+										<li><a class="right_border">微菜</a></li>
+										<li><a class="right_border">烤鱼</a></li>
+										<li><a class="right_border">烤鸭</a></li>
+										<li><a class="right_border">麻辣烫/冒菜</a></li>
+										<li><a style="color: #999;font-size: 5px; margin-left:10px;">中餐/家常菜</a></li>
+									</ul>
+									<ul id="meishi_list_wgc">
+										<p style="color: #000;font-size: 5px;margin-left: 10px;">外国菜</p>
+										<li><a class="right_border">韩国料理</a></li>
+										<li><a class="right_border">东南亚菜</a></li>
+										<li><a class="" style="color: #999;font-size: 5px; margin-left:10px;">西餐</a></li>
+									</ul>
+								</div>
+								
+							</li>
+							<li id="nav_left_movie">
+								<a id="nav_left_list">电影</a><span id="nav_left_font"><a>在线选座</a><a>电影票团购</a></span>
+								<div id="movie_list">
+									<ul id="movie_list_hot">
+										<p style="color: #000;font-size: 5px;margin-left: 10px;">热门电影</p>
+										<li><a class="right_border">神奇动物在哪里</a></li>
+										<li><a class="right_border">海洋奇缘</a></li>
+										<li><a class="right_border">冲天火</a></li>
+										<li><a class="right_border">我不是潘金莲</a></li>
+										<li><a class="right_border">名侦探柯南</a></li>
+										<li><a class="right_border">奇异博士</a></li>
+										<li><a class="right_border">你的名字。</a></li>
+										<li><a class="right_border">最萌身高差</a></li>
+										<li><a class="right_border">我是处女座</a></li>
+										<li><a class="right_border">深海浩劫</a></li>
+										<li><a class="right_border">夏威夷之恋</a></li>
+										<li><a class="right_border">间谍同盟</a></li>
+										<li><a class="right_border">佩小姐的奇幻城堡</a></li>
+										<li><a class="right_border">勇士之门</a></li>
+										<li><a class="right_border">比利·林恩的中场战事</a></li>
+										<li><a class="right_border">三少爷的剑</a></li>
+										<li><a class="right_border">怨灵地下室</a></li>
+										<li><a class="right_border">阿拉丁与神灯</a></li>
+										<li><a class="right_border">外公芳龄28</a></li>
+										<li><a class="right_border">航海王之黄金城</a></li>
+										<li><a class="right_border">28岁未成年</a></li>
+										<li><a class="right_border">白云桥湄公河行动</a></li>
+										<li><a style="color: #999;font-size: 5px; margin-left:10px;">聊斋新编之画皮新娘</a></li>
+									</ul>
+									<ul id="movie_list_juyuan">
+										<p>热门院线</p>
+										<li><a class="right_border">太原金亿国际影城</a></li>
+										<li><a class="right_border">中国国际影城</a></li>
+										<li><a class="right_border">中影世纪国际影城</a></li>
+										<li><a style="color: #999;font-size: 5px; margin-left:10px;">太原宽银幕电影院</a></li>
+									</ul>
+								</div>
+							</li>
+							<li id="nav_left_xiuxianyule">
+								<a id="nav_left_list">休闲娱乐</a>
+								<div id="xiuxianyule">
+									<ul id="xiuxianyule_1">
+										<li><a class="right_border">温泉洗浴</a></li>
+										<li><a class="right_border">KTV</a></li>
+										<li><a class="right_border">足疗按摩</a></li>
+										<li><a class="right_border">文采艺术</a></li>
+										<li><a class="right_border">采摘</a></li>
+										<li><a class="right_border">私人影院</a></li>
+										<li><a class="right_border">桌游</a></li>
+										<li><a class="right_border">电玩/游戏币</a></li>
+										<li><a class="right_border">DIY手工</a></li>
+										<li><a class="right_border">密室逃脱</a></li>
+										<li><a class="right_border">真人CS</a></li>
+										<li><a class="right_border">卡丁车</a></li>
+										<li><a class="right_border">其他娱乐活动</a></li>
+										<li><a class="right_border">游泳</a></li>
+										<li><a style="color: #999;font-size: 5px; margin-left:10px;">滑雪/滑冰</a></li>
+									</ul>
+									<ul id="xiuxianyule_2">
+										<li><a class="right_border">养生保健</a></li>
+										<li><a class="right_border">游乐园/水上游乐园</a></li>
+										<li><a class="right_border">录音棚</a></li>
+										<li><a class="right_border">运动健身</a></li>
+										<li><a class="right_border">演出赛事</a></li>
+										<li><a class="right_border">轰趴馆</a></li>
+										<li><a class="right_border">网吧网咖</a></li>
+										<li><a class="right_border">VR体验馆</a></li>
+										<li><a class="right_border">玩酷</a></li>
+										<li><a class="right_border">画室画廊</a></li>
+										<li><a class="right_border">展览</a></li>
+										<li><a class="right_border">台球</a></li>
+										<li><a class="right_border">展览</a></li>
+										<li><a style="color: #999;font-size: 5px; margin-left:10px;">今日新单</a></li>
+									</ul>
+								</div>
+							</li>
+							<li><a id="nav_left_list">一元抢宝</a><span id="nav_left_font"><a>苹果手机</a><a>小米手机</a></span></li>
+							<li><a id="nav_left_list">生活服务</a><span id="nav_left_font"><a>配镜</a><a>丽人</a></span></li>
+							<li><a id="nav_left_list">酒店</a><span id="nav_left_font"><a>太原</a><a>北京</a><a>上海</a></span></li>
+							<li><a id="nav_left_list">本地生活</a><span id="nav_left_font"><a>温泉洗浴</a><a>采摘</a></span></li>
+							<li><a id="nav_left_list">丽人</a><span id="nav_left_font"><a>美发</a><a>美甲</a><a>美容SPA</a></span></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div id="nav_next">
+				<div id="nav_next_content">
+					<p><a>团购</a>&gt;<a>美食</a>&gt;<a class="nav_next_content_right">汉堡王团购</a></p>
+				</div>
+			</div>
+			<div id="shangpin_xuangou_bg">
+				<div id="shangpin_xuangou">
+					<h2>丁丁洋回转自助火锅</h2>
+					<p>仅售38.9元，价值42元单人自助餐！节假日通用！</p>
+					<div id="shangpin_xuangou_img">
+						<div id="shangpin_xuangou_imgs">
+							<img src="img/shangpin/ico_freeappointment_60974ec.png" class="shangpin_xuangou_imgs1"/>
+							<img src="img/shangpin/b17eca8065380cd79425c9ffa744ad34598281ec.jpg" class="shangpin_xuangou_imgs2"/>
+						</div>
+						<div id="shangpin_xuangou_imgc">
+							<img src="img/shangpin/b17eca8065380cd79425c9ffa744ad34598281ec.jpg" class="shangpin_xuangou_imgc"/>
+						</div>
+						<div id="shangpin_xuangou_sc">
+							<a id="shangpin_xuangou_sc_img">收藏</a>
+						</div>
+					</div>
+					<div id="shangpin_xuangou_mc">
+						<div id="shangpin_xuangou_jiage_bg">
+							<div id="shangpin_xuangou_jiage">
+								<div class="match-price-area">
+									<span class="unit">¥</span>
+									<span class="real-price">38.9</span>
+								</div>
+								<div class="market-price-area">
+									<div class="price">¥42</div>
+									<div class="name">价值</div>
+								</div>
+								<div class="activity-wrap ">
+									<p style="color: #FFFFFF;">钱包新客最高再减20元</p>
+								</div>
+							</div>
+						</div>
+						<div id="shangpin_xiaofei">
+							<ul>
+								<li class="right_border">
+									<br />
+									<p>80258人已团购</p>
+									<br />
+								</li>
+								<li class="right_border">
+									<p id="xiaofei_pingfen">
+										4.5
+									</p>
+									<p id="xiaofei_pingfen">
+										6526条评论
+									</p>
+								</li>
+								<li>
+									<p id="suibiantui">随便退</p>
+									<p id="yingyezhizhao">商家营业执照</p>
+								</li>
+							</ul>
+						</div>
+						<div id="shangpin_shiliang_xinxi_bg">
+							<div id="shangpin_shiliang_xinxi">
+								<ul>
+									<li>
+										<p>有效期：2016-12-31</p>
+									</li>
+									<li>
+										<p>数量：<button>-</button><input type="text" id="text" value="1" /><button>+</button></p>
+									</li>
+								</ul>
+								<div id="btn_qg">
+									立即抢购
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			
+			<div id="fengexian"></div>
+			
+			<div id="shangpin_jieshao_bg">
+				<div id="shangpin_jieshao">
+					<div id="shangpin_jieshao_left">
+						<div id="left_top">
+							<div id="left_top_nav">
+								<h3>买了又买</h3>
+								<a href="">换一换<img src="img/shangpin/huanyihuan.png" style="width: 18px;"></a>
+							</div>
+							<div id="left_top_hot">
+								<div id="left_top_hot_s">
+									<div id="left_top_hot_1">
+										<img src="img/shangpin/f2deb48f8c5494eee69e4de22af5e0fe98257e88.jpg" class="left_top_hot_left"/>
+										<p>快乐迪阳光场不限欢唱</p>
+										<span id="price">¥58</span>
+										<span id="sold">已售12261</span>
+									</div>	
+								</div>
+								<div id="left_top_hot_s">
+									<div id="left_top_hot_1">
+										<img src="img/shangpin/d6ca7bcb0a46f21f40ca5487f1246b600d33ae6c.jpg" class="left_top_hot_left"/>
+										<p>夫妻肺片四川凉面</p>
+										<span id="price">¥3</span>
+										<span id="sold">已售578</span>
+									</div>
+								</div>	
+								<div id="left_top_hot_s">
+									<div id="left_top_hot_1">
+										<img src="img/shangpin/21a4462309f790522b28f07404f3d7ca7bcbd541.jpg" class="left_top_hot_left"/>
+										<p>鱼羊鲜鱼火锅100元代金券</p>
+										<span id="price">¥85</span>
+										<span id="sold">已售562</span>
+									</div>
+								</div>	
+								<div id="left_top_hot_s">
+									<div id="left_top_hot_1">
+										<img src="img/shangpin/f2deb48f8c5494eea40d03012af5e0fe99257efe.jpg" class="left_top_hot_left"/>
+										<p>川江坝子4人火锅自助</p>
+										<span id="price">¥180.6</span>
+										<span id="sold">已售798</span>
+									</div>
+								</div>	
+							</div>
+						</div>
+						<div id="huiyuanpingfen_bg">
+							<div id="huiyuanpingfen">
+								<div id="huiyuan_mc">会员评分</div>
+								<span id="huiyuan_pingjia">查看全部评价</span>
+							</div>
+							<div id="deifen">
+								<div id="fengshu">4.5</div>
+								<div id="xingxing" style="width:63px;"></div>
+								<div id="renshu">
+									共有6398人评价，满意率
+									<span style="margin-left: 5px;color: #ff4883;">87.88%</span>
+								</div>
+							</div>	
+						</div>
+						<div id="shangpinka">
+							<div id="shangpinkatiao">
+								<ul>
+									<li class="chose show">
+										<span id="border_right">本单详情</span>
+									</li>
+									<li class="chose">
+										<span id="border_right">消费提示</span>
+									</li>
+									<li class="chose">
+										<span id="border_right">商家介绍</span>
+									</li>
+									<li class="chose">
+										<span>会员评价</span>
+									</li>
+								</ul>
+							</div>
+							<div id="qg_price">
+								<div class="cb_price">
+								<span>￥</span>38.9
+								</div>
+								<a id="qg_price_btn">立即抢购</a>
+							</div>
+						</div>
+						
+						<div id="fendianxinxi_bg">
+							<div id="fendianxinxi">
+								<h3>分店信息</h3>
+								<div id="ditu">
+									<iframe src="ditu.html" width="300px" height="300px"></iframe>
+									<div id="ditu_right">
+										<div id="ditu_select">
+											<label>筛选：</label>
+											<select>
+												<option>太原市</option>
+											</select>
+											<select>
+												<option>全部城区</option>
+												<option>小店区</option>
+												<option>杏花岭区</option>
+												<option>万柏林区</option>
+												<option>迎泽区</option>
+											</select>
+										</div>
+										<div id="ditu_dizhi">
+											<ul>
+												<li>
+													<a class="branch_name">丁丁洋回转自助火锅(朝阳街店)</a>
+													<p class="branch_address">太原市小店区长风街115号千禧世纪广场地下1层B120B</p>
+													<p class="branch_tel">03517190585</p>
+													<p class="ditu_btn">
+														<a><img src="img/shangpin/ditu.png" style="width: 15px;"/></a>
+														查询地图
+														<a><img src="img/shangpin/jiache.png" style="width: 15px;"/></a>
+														公交/驾车去这里
+													</p>
+												</li>
+												<li>
+													<a class="branch_name">丁丁洋回转自助火锅(东方红店)</a>
+													<p class="branch_address">太原市小店区长风街115号千禧世纪广场地下1层B120B</p>
+													<p class="branch_tel">03517190585</p>
+													<p class="ditu_btn">
+														<a><img src="img/shangpin/ditu.png" style="width: 15px;"/></a>
+														查询地图
+														<a><img src="img/shangpin/jiache.png" style="width: 15px;"/></a>
+														公交/驾车去这里
+													</p>
+												</li>
+											</ul>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						
+						<div id="shangpinleixing">
+							<div id="taocanneirong">
+								<h3 class="section_header">
+									套餐内容
+								</h3>
+								<table>
+									<thead>
+										<tr>
+											<th>
+												<div class="cont">团单内容</div>
+											</th>
+											<th>
+												<div class="others">数量/规格</div>
+											</th>
+											<th>
+												<div class="others">小计</div>
+											</th>
+										</tr>
+									</thead>
+									<tbody>
+										<tr>
+											<td class="">
+												<div class="cont ">单人自助</div>
+											</td>
+											<td class="">
+												<div class="others ">1位</div>
+											</td>
+											<td class="">
+												<div class="others ">42元</div>
+											</td>
+										</tr>
+									</tbody>
+								</table>
+								<ul class="ext-info">
+									<li class="ext-info">- 注</li>
+									<li class="ext-info">  肉类：鲶鱼、翅根等</li>
+									<li class="ext-info">  鱼浆制品：鱼豆腐、鱼丸等</li>
+									<li class="ext-info">  蔬菜：大白菜等</li>
+									<li class="ext-info">  豆制品：豆皮等</li>
+									<li class="ext-info">  面点小吃：寿司等</li>
+									<li class="ext-info">  时令水果：苹果等</li>
+									<li class="ext-info">  羊肉/牛肉/大虾任选1份</li>
+									<li class="ext-info">  N种水果任您品尝</li>
+									<li class="ext-info">  10余种饮品无限畅饮：汇源蓝莓、芒果、蜜桃、冰糖雪梨、百事可乐、七喜、美年达</li>
+									<li class="ext-info">锅底和小料及饮料均在本套餐中，到店无需补差价</li>
+								</ul>
+							</div>
+							<div id="xiaofeitishi">
+								<h3 class="section_header">
+									消费提示
+								</h3>
+								<table class="consume">	
+									<tr>
+										<th>有效期</th>
+										<td>2015年11月01日至2016年12月31日</td>
+									</tr>
+									<tr>
+										<th>可用时间</th>
+										<td>
+											周末法定节假日通用<br />
+											11:00 - 21:00<br />
+										</td>
+									</tr>
+									<tr>
+										<th>预约提示</th>
+										<td>无需预约，直接消费（高峰期间消费需排号等位）<br/></td>
+									</tr>
+									<tr>
+										<th>使用规则</th>
+										<td>
+											<ul>
+												<li>
+													团购用户暂不享受店内其他优惠
+												</li>
+												<li>
+													每张糯米券限1人使用
+												</li>
+												<li>
+													每次消费不限使用糯米券张数，可叠加使用
+												</li>
+												<li>
+													1.1米(不含)以下的儿童免费， 1.01米(不含)-1.30米(含)的儿童23元/位， 1.31米(不含)以上的等同成人，需使用1张糯米券或原价支付
+												</li>
+												<li>
+													自助餐仅限堂食，不提供打包服务<br>部分菜品因时令原因有所不同，请以店内当日实际供应为准
+												</li>
+												<li>
+													每张糯米券可免费携带1名1.1m以下儿童（需与成人共享1个锅底，不得独占座位）
+												</li>
+											</ul>
+										</td>
+									</tr>
+								</table>
+							</div>
+						</div>
+						
+						<div id="tuandanxiangqing_bg">
+							<div id="tuandanxiangqing">
+								<h3>团单详情</h3>
+							</div>
+							<div id="danrentuangou">
+								<p>单人团购:</p>
+								<img src="img/shangpin/060828381f30e9241896d1564f086e061d95f7a3.jpg"/>
+								<img src="img/shangpin/dcc451da81cb39dbe9f32a31d3160924ab1830a1.jpg"/>
+								<img src="img/shangpin/e61190ef76c6a7efdf30e541fefaaf51f3de6646.jpg"/>
+								<img src="img/shangpin/f636afc379310a55cc309393b44543a982261044.jpg"/>
+								<img src="img/shangpin/0df431adcbef7609b211d4f82ddda3cc7cd99ebb.jpg"/>
+								<img src="img/shangpin/2f738bd4b31c870139acff81247f9e2f0708ffbb.jpg"/>
+								<img src="img/shangpin/54fbb2fb43166d22f22e58f3452309f79052d278.jpg"/>
+								<img src="img/shangpin/64380cd7912397dd514fd5635a82b2b7d0a287a7.jpg"/>
+								<img src="img/shangpin/730e0cf3d7ca7bcbcd608a48bd096b63f624a8ba.jpg"/>
+								<img src="img/shangpin/83025aafa40f4bfb8cc8d333004f78f0f73618b8.jpg"/>
+								<img src="img/shangpin/9e3df8dcd100baa184750adc4410b912c8fc2e7f.jpg"/>
+								<img src="img/shangpin/a8773912b31bb051772efe4f357adab44aede04b.jpg"/>
+								<img src="img/shangpin/bd3eb13533fa828b937dd084fe1f4134970a5a7e.jpg"/>
+								<img src="img/shangpin/cb8065380cd7912378d0d913ae345982b2b780a1.jpg"/>
+								<div id="">
+									『图片仅供参考，具体以实物为准』
+								</div>
+							</div>
+							
+						</div>
+						
+						<div id="shangjiajieshao_bg">
+							<div id="shangjiajieshao">
+								<h3>商家介绍</h3>
+								<div>
+									<img src="img/shangpin/8718367adab44aedba11f383b01c8701a18bfb7e.jpg"><br />
+									丁丁洋回转自助火锅主要经营回转火锅自助餐饮。丁丁洋颠覆中国传统经营火锅模式，通过回转机械传送美食。在这种特别、创意的全新模式下，让顾客在自助的形式中享受休闲火锅带来的酣畅淋漓的感觉。为顾客提供超值的美食、优质的服务、舒适的环境一直是我们追求的目标。公司一直秉承着“为消费者提供物超所值的美食享受”的理念，开发了适合不同口味需求的火锅品种。用回转机械传送包括海鲜、蔬菜、水果等近百个品种的火锅食物，让顾客只需花超值的价格，即可遍享回转自助火锅美食。<br>
+								</div>
+							</div>
+						</div>
+
+						<div id="shangpin_pingjia_bg">
+							<div id="shangpin_pingjia">
+								<div class="number">4.5</div>
+								<div id="number_xingxing"></div>
+								<div id="pinglunrenshu">
+									此团单共6401人评论
+								</div>
+							</div>
+							<div id="pingfentiao">
+								<div id="pingfen_hp">
+									好评
+									<p id="line1">
+									</p>
+									5738条
+								</div>
+								<div id="pingfen_zp">
+									中评
+									<p id="line2">
+										<span id="line_z"></span>
+									</p>
+									573条
+								</div>
+								<div id="pingfen_cp">
+									差评
+									<p id="line3">
+										<span id="line_c"></span>
+									</p>
+									57条
+								</div>
+							</div>
+							<div id="status">
+								<div id="ldesc">我在百度糯米买过此单</div>
+								<a id="status_button">
+								我要评价</a>
+							</div>
+						</div>
+						
+						<div id="dajiazaishuo_bg">
+							<div id="dajiazaishuo">
+								<p>大家都在说：</p>
+								<ul>
+									<li>环境不错(413)</li>
+									<li>服务态度好(512)</li>
+									<li>味道不错(330)</li>
+									<li>品种丰富(203)</li>
+									<li>价格实惠(234)</li>
+									<li>味道还行(333)</li>
+								</ul>
+							</div>
+						</div>
+						
+						<div id="pinglunfenlei_bg">
+							<div id="pinglunlan_bg">
+								<div id="pinglunlan">
+									<ul id="pinglunlan_left">
+										<li class="punlunshow">全部</li>
+										<li>好评</li>
+										<li>中评</li>
+										<li>差评</li>
+									</ul>
+									<div id="pinglunlan_right">
+										<input type="checkbox" id="checkbox1" /><label for="checkbox1">有图片</label>
+										<input type="checkbox" id="checkbox2" /><label for="checkbox2">有内容</label>
+										默认<img src="img/shangpin/updown.png">
+									</div>
+								</div>
+								<div id="pinglun_content">
+									<div id="pinglun_user">
+										<img src="img/shangpin/0000e587a1e5b098e5aeb9e4b88de4b88b0000.jpg"/>
+										<p>凡****下</p>
+									</div>
+									<div id="pinglun_neirong">
+										<div id="pinglun_xinxi">
+											今天说：
+											<div id="pinglun_xingji"></div>
+										</div>
+										<div id="pinglun_jiti">
+											不错哈哈哈哈哈哈呵呵呵呵呵哈哈哈哈
+										</div>
+									</div>
+								</div>
+								<div id="pinglun_content">
+									<div id="pinglun_user">
+										<img src="img/shangpin/0000e587a1e5b098e5aeb9e4b88de4b88b0000.jpg"/>
+										<p>凡****下</p>
+									</div>
+									<div id="pinglun_neirong">
+										<div id="pinglun_xinxi">
+											今天说：
+											<div id="pinglun_xingji"></div>
+										</div>
+										<div id="pinglun_jiti">
+											一直来它家吃，感觉不错。就是有的菜好多都没有比如香菇
+										</div>
+									</div>
+								</div>
+								<div id="pinglun_content">
+									<div id="pinglun_user">
+										<img src="img/shangpin/0000e587a1e5b098e5aeb9e4b88de4b88b0000.jpg"/>
+										<p>鱼****7</p>
+									</div>
+									<div id="pinglun_neirong">
+										<div id="pinglun_xinxi">
+											今天说：
+											<div id="pinglun_xingji"></div>
+										</div>
+										<div id="pinglun_jiti">
+											总体还不错，有些菜品口感差！环境卫生还可以，菜品需改进。
+										</div>
+									</div>
+								</div>
+								<div id="pinglun_content">
+									<div id="pinglun_user">
+										<img src="img/shangpin/0000e587a1e5b098e5aeb9e4b88de4b88b0000.jpg"/>
+										<p>1****0</p>
+									</div>
+									<div id="pinglun_neirong">
+										<div id="pinglun_xinxi">
+											今天说：
+											<div id="pinglun_xingji"></div>
+										</div>
+										<div id="pinglun_jiti">
+											东西感觉不新鲜了，再也不想去了！
+										</div>
+									</div>
+								</div>
+								<div id="pinglun_content">
+									<div id="pinglun_user">
+										<img src="img/shangpin/0000e587a1e5b098e5aeb9e4b88de4b88b0000.jpg"/>
+										<p>不****沦</p>
+									</div>
+									<div id="pinglun_neirong">
+										<div id="pinglun_xinxi">
+											今天说：
+											<div id="pinglun_xingji"></div>
+										</div>
+										<div id="pinglun_jiti">
+											一般吧，没之前的好了，之前火锅料都是安井的，现在都换了。
+										</div>
+									</div>
+								</div>
+								<div id="pinglun_content">
+									<div id="pinglun_user">
+										<img src="img/shangpin/0000e587a1e5b098e5aeb9e4b88de4b88b0000.jpg"/>
+										<p>鬼****皇</p>
+									</div>
+									<div id="pinglun_neirong">
+										<div id="pinglun_xinxi">
+											今天说：
+											<div id="pinglun_xingji"></div>
+										</div>
+										<div id="pinglun_jiti">
+											第一次去，去的时候人挺多，菜品还是比较全的！味道也不错！
+										</div>
+									</div>
+								</div>
+								<div id="pinglun_content">
+									<div id="pinglun_user">
+										<img src="img/shangpin/0000e587a1e5b098e5aeb9e4b88de4b88b0000.jpg"/>
+										<p>q****4</p>
+									</div>
+									<div id="pinglun_neirong">
+										<div id="pinglun_xinxi">
+											今天说：
+											<div id="pinglun_xingji"></div>
+										</div>
+										<div id="pinglun_jiti">
+											为什么没有牙签肉了，而且五谷杂粮饮料没了，那是我最爱喝的，倒是海鲜增多了很多，但是可怜我不吃海鲜
+										</div>
+									</div>
+								</div>
+								<div id="pinglun_content">
+									<div id="pinglun_user">
+										<img src="img/shangpin/0000e587a1e5b098e5aeb9e4b88de4b88b0000.jpg"/>
+										<p>3****m</p>
+									</div>
+									<div id="pinglun_neirong">
+										<div id="pinglun_xinxi">
+											今天说：
+											<div id="pinglun_xingji"></div>
+										</div>
+										<div id="pinglun_jiti">
+											没有以前的感觉，没有以前的好，以前那种很人满的，线也没有了
+										</div>
+									</div>
+								</div>
+								<div id="pinglun_content">
+									<div id="pinglun_user">
+										<img src="img/shangpin/0000e587a1e5b098e5aeb9e4b88de4b88b0000.jpg"/>
+										<p>1****1</p>
+									</div>
+									<div id="pinglun_neirong">
+										<div id="pinglun_xinxi">
+											今天说：
+											<div id="pinglun_xingji"></div>
+										</div>
+										<div id="pinglun_jiti">
+											第一吃吃旋转自助火锅，真的好方便。菜品很多，肉质很好，下次再来。重点是好划算⊙▽⊙
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					
+						
+					</div>
+					
+					<div id="shangpin_jieshao_right">
+						<div id="jieshao_right_kankan">
+							<div id="klyk">
+								看了又看
+								<a href="">换一换<img src="img/shangpin/huanyihuan.png" style="width: 18px;"></a>
+							</div>
+							<div id="right_kankan_1">
+								<img src="img/shangpin/8601a18b87d6277f9d760c6c20381f30e924fc79.jpg"/>
+								<div class="goods-info">
+									<p class="goods-title">环球约客周一至周四午晚餐</p>
+									<p class="goods-price">
+									<span class="goods-price-groupon">
+									¥45
+									</span>
+									<span class="goods-price-origin">
+									¥78
+									</span>
+									</p>
+								</div>
+							</div>
+							<div id="right_kankan_1">
+								<img src="img/shangpin/728da9773912b31ba22416398f18367adab4e152.jpg"/>
+								<div class="goods-info">
+									<p class="goods-title">紫洛轩单人自助午餐</p>
+									<p class="goods-price">
+									<span class="goods-price-groupon">
+									¥138
+									</span>
+									<span class="goods-price-origin">
+									¥198
+									</span>
+									</p>
+								</div>
+							</div>
+							<div id="right_kankan_1">
+								<img src="img/shangpin/d50735fae6cd7b89164b5cb0062442a7d9330ed9.jpg"/>
+								<div class="goods-info">
+									<p class="goods-title">传世骨味羊蝎子单人自助</p>
+									<p class="goods-price">
+									<span class="goods-price-groupon">
+									¥46.8
+									</span>
+									<span class="goods-price-origin">
+									¥52
+									</span>
+									</p>
+								</div>
+							</div>
+							<div id="right_kankan_1">
+								<img src="img/shangpin/e1fe9925bc315c60a72ba1d784b1cb1349547748.jpg"/>
+								<div class="goods-info">
+									<p class="goods-title">金诺郎韩式养生自助八人餐</p>
+									<p class="goods-price">
+									<span class="goods-price-groupon">
+									¥388
+									</span>
+									<span class="goods-price-origin">
+									¥552
+									</span>
+									</p>
+								</div>
+							</div>
+							<div id="right_kankan_1">
+								<img src="img/shangpin/279759ee3d6d55fb775b29586b224f4a20a4dd2b.jpg"/>
+								<div class="goods-info">
+									<p class="goods-title">春天自助烤肉1位</p>
+									<p class="goods-price">
+									<span class="goods-price-groupon">
+									¥59
+									</span>
+									<span class="goods-price-origin">
+									¥78
+									</span>
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div id="footer_content">
+					<div id="footer">
+						<div id="footer_list">
+							<div id="footer_list_1">
+								<h3>用户帮助</h3>
+								<ul>
+									<li><a href="//www.nuomi.com/help">常见团购问题</a></li>
+									<li><a href="//www.nuomi.com/help/api">开放API</a></li>
+								</ul>
+							</div>
+							<div id="footer_list_2">
+								<h3>手机百度助手</h3>
+								<ul>
+									<li><a href="https://m.nuomi.com" target="_blank">百度糯米触屏版</a></li>
+									<li><a href="//d.nuomi.com/inter/group?from=WebRootWord" target="_blank">下载手机版</a></li>
+								</ul>
+							</div>
+							<div id="footer_list_2">
+								<h3>商务合作</h3>
+								<ul>
+									<li><a href="//www.nuomi.com/links">友情链接</a></li>
+									<li><a href="http://cooperation.nuomi.com/clue/index">市场合作</a></li>
+								</ul>
+							</div>
+							<div id="footer_list_2">
+								<h3>公司信息</h3>
+								<ul>
+									<li><a href="//www.nuomi.com/about">关于百度糯米</a></li>
+									<li><a href="http://weibo.com/nuomiwang" target="_blank">百度糯米新浪微博</a></li>
+									<li><a id="j-tttel">违规投诉&amp;廉政举报</a></li>
+								</ul>
+							</div>
+							<div id="footer_list_3">
+								<h3>4006-888-887</h3>
+								<ul>
+									<li>周一至周日&nbsp;9:00-22:00</li>
+									<li>客服电话&nbsp;免长途费</li>
+								</ul>
+								<a href="//d.nuomi.com/inter/group?from=WebRootWord" class="mobile-btn" style="color: #FFFFFF;">手机专享优惠</a>
+							</div>
+						</div>
+					</div>
+					<div id="copyright-info">
+						<div class="site-info">
+						<span class="copyright">©</span>2016&nbsp;nuomi.com&nbsp;<a href="http://www.miitbeian.gov.cn" class="link">京ICP证030173号</a>
+						&nbsp;京公网安备11010802014106号
+						&nbsp;<a href="/pcindex/main/about/openinfo">营业执照信息</a>
+						</div>
+						<div class="icons">
+						<span class="ico-qianbao">百度钱包</span>
+						<span class="ico-zhifubao">支付宝-特约商家</span>
+						<span class="ico-kexin">可信网站 身份验证</span>
+						<span class="ico-web-trust">网站认证 Web Trust</span>
+						</div>
+					</div>
+					<div style="width:300px;margin:0 auto; padding:20px 0;">
+						<a href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=11000002000001" style="display:inline-block;text-decoration:none;height:20px;line-height:20px;"><img src="//gss0.bdstatic.com/8r1VfDn9KggZnd_b8IqT0jB-xx1xbK/static/common/widget/footer/imgs/police_logo_2aa5dfa.png" style="float:left;"><p style="float:left;height:20px;line-height:20px;margin: 0px 0px 0px 5px; color:#939393;">京公网安备 11000002000001号</p></a>
+					</div>
+				</div>
+		</div>
+	</body>
+</html>

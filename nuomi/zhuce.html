@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>注册百度账号</title>
+		<link rel="stylesheet" type="text/css" href="css/reset.css"/>
+		<link rel="stylesheet" type="text/css" href="css/zhuce.css"/>
+		<script src="js/zhuce.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+	<body>
+		<div id="zhuce_body">
+			<div id="zhuce_head_bg">
+				<img src="img/zhuce/logo-nuomi.png"/>
+				<p>注册百度账号</p>
+			</div>
+			<hr style="height:1px;border:none;border-top:1px solid #DFDFDF" />
+			<div id="zhuce_content_bg">
+				<div id="zhuce_content">
+					<div id="zhuce_content_left">
+						<form action="zhucechenggong.html" method="get" onsubmit="return checkForm()">
+							<p>
+								<label  for="username" class="label">用户名</label>
+								<input type="text" name="username" id="username" value="" placeholder="请设置用户名" class="inp" onfocus="tipUsername()" onblur="notipUsername()" onchange="checkUsername()"/>
+								<span id="username_flag">
+								</span>
+								<span id="username_tip">
+									设置后不可更改
+									<br>
+									中英文均可，最长14个英文
+								</span>
+							</p><br />
+							<p>
+								<label for="phoneNum" class="label">手机号</label>
+								<input type="text" name="phoneNum" id="phoneNum" value="" placeholder="可用于登录和找回密码" class="inp" onfocus="tipPhone()" onblur="notipPhone()" onchange="checkPhone()"/>
+								<span id="phoneNum_flag">
+								</span>
+								<span id="phoneNum_tip">
+									请输入中国大陆手机号,其他用户不可见
+								</span>
+							</p><br />
+							<p>
+								<label for="yanzheng" class="label">验证码</label>
+								<input type="text" name="yanzheng" id="yanzheng" value="" placeholder="请输入验证码" class="inp" />
+								<span id="yanzheng_flag">
+								</span>
+							</p><br />
+							<p>
+								<label for="password" class="label">密码</label>
+								<input type="password" name="password" id="password" value="" placeholder="请设置登录密码" class="inp" onfocus="tipPassword()" onblur="notipPassword()" onchange="checkPassword()"/>
+								<span id="password_flag">
+								</span>
+								<span id="password_tip">
+									<ul id="password_tip_ul">
+										<li>长度为6~14个字符</li>
+										<li>支持数字,大小写字母和标点符号</li>
+										<li>不允许有空格</li>
+									</ul>
+								</span>
+							</p><br />
+							<p>
+								<label for="password" class="label">确认密码</label>
+								<input type="password" name="psd" id="psd" value="" placeholder="请重新输入登录密码" class="inp" onchange="checkPwd()"/>
+								<span id="psd_flag">
+								</span>
+							</p>
+							<p id="checkbox">
+								<input type="checkbox" name="checkbox" id="checkbox" value="" checked="checked"/>
+								<label for="checkbox">阅读并接受</label>
+								<a href="http://passport.baidu.com/static/passpc-account/html/protocal.html">《百度用户协议》</a>
+							</p>
+							<input type="submit" value="注册" id="submit" class="inp"/>
+						</form>
+					</div>
+					
+					<div id="zhuce_content_right">
+						<h3 id="zhuce_content_right_h">手机快速注册</h3>
+						<div id="zhuce_content_right_content">
+							<p id="zhuce_content_right_text">请使用中国大陆手机号，编辑短信：</p>
+							<p id="zhuce_content_right_warn">6-14位字符（支持数字/字母/符号）</p>
+							<p id="zhuce_content_right_text">作为登录密码，发送至：</p>
+							<p id="zhuce_content_right_warn">1069 80000 36590</p>
+							<p id="zhuce_content_right_last">即可注册成功，手机号即为登录帐号。</p>
+						</div>
+					</div>
+					<div id="login_link">
+						<span>我已注册，现在就</span>
+						<a href="denglu.html"><button id="login_btn">登录</button></a>
+					</div>
+				</div>
+			</div>
+			<div id="footer">
+				<div class="mod-footer">
+					<div class="copy-box">2016&nbsp;&copy;Baidu</div>
+				</div>
+			</div>
+			<a id="yijian_btn">
+				<div id="yijian">
+					意见反馈
+				</div>
+			</a>
+		</div>
+		<script type="text/javascript">
+		
+		
+			function tipUsername(){
+				$("#username_tip").style.left = 480+"px";
+				$("#username_tip").style.display = "block";
+			}
+			function notipUsername(){
+				$("#username_tip").style.display = "none";
+			}
+            function tipPhone(){
+            	$("#phoneNum_tip").style.display = "block";
+				$("#phoneNum_tip").style.left = 480+"px";
+            }
+            function notipPhone(){
+            	$("#phoneNum_tip").style.display = "none";
+            }
+            function tipPassword(){
+            	$("#password_tip_ul").style.display = "block";
+				$("#password_tip_ul").style.left = 480+"px";
+            }
+            function notipPassword(){
+            	$("#password_tip_ul").style.display = "none";
+            }
+            
+            function checkForm(){
+				if(checkUsername()&&checkPassword()&&checkPwd()&&checkPhone()){
+					return true;
+				}else{
+					return false;
+				}
+			}
+			
+			
+			
+			function checkUsername(){
+				var username = $("#username");
+				var use_flag = $("#username_flag");
+				var regexp = /^\w{4,14}$/;
+				if(regexp.test(username.value)){
+					use_flag.innerHTML = "<img src='img/zhuce/true.svg' style='width: 20px;'/>";
+					return true;
+				}else{
+					use_flag.innerHTML = "<img src='img/zhuce/false.svg' style='width: 20px;'/>";
+					return false;
+				}
+			}
+			
+			function checkPhone(){
+				var phoneNum = $("#phoneNum");
+				var pN_flag = $("#phoneNum_flag");
+				var regexp = /1[3-9][0-9]{9}/;
+				if(regexp.test(phoneNum.value)){
+					pN_flag.innerHTML = "<img src='img/zhuce/true.svg' style='width: 20px;'/>";
+					return true;
+				}else{
+					pN_flag.innerHTML = "<img src='img/zhuce/false.svg' style='width: 20px;'/>";
+					return false;
+				}
+			}
+			
+			function checkPassword(){
+				var password = $("#password");
+				var psd_flag = $("#password_flag");
+				var regexp = /^[A-Za-z0-9]{6,14}$/;
+				if(regexp.test(password.value)){
+					psd_flag.innerHTML = " <img src='img/zhuce/true.svg' style='width: 20px;'/>";
+					return true;
+				}else{
+					psd_flag.innerHTML = " <img src='img/zhuce/false.svg' style='width: 20px;'/>";
+					return false;
+				}
+			}
+			
+			function checkPwd(){
+				var password = $("#password");
+				var cPwd = $("#psd");
+				var cPwd_flag = $("#psd_flag");
+				if(password.value===""){
+					cPwd_flag.innerHTML = " <img src='img/zhuce/false.svg' style='width: 20px;'/>";
+					return false;
+				}else if(cPwd.value===password.value){
+					cPwd_flag.innerHTML = " <img src='img/zhuce/true.svg' style='width: 20px;'/>";
+					return true;
+				}else{
+					cPwd_flag.innerHTML = " <img src='img/zhuce/false.svg' style='width: 20px;'/>";
+					return false;
+				}
+			}
+            
+            
+            
+            
+            
+		</script>
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	</body>
+</html>

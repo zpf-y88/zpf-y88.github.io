@@ -1,0 +1,746 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>我的订单</title>
+		<link rel="stylesheet" type="text/css" href="css/mylist.css"/>
+		<link rel="stylesheet" type="text/css" href="css/reset.css"/>
+		<script src="js/mylist.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+	<body>
+		<div id="big">
+			<div id="header">
+				<div id="top">
+					<ul id="first_city">
+						<li class="left">
+							<ul>
+								<li><a class="right_border">太原</a></li>
+								<li id="big_city"><a href="https://www.nuomi.com/pcindex/main/changecity" >切换城市</a>
+								</li>
+							</ul>
+						</li>
+						<li class="right">
+							<ul>
+								<li><a href="denglu.html" class="right_border">登陆</a></li>
+								<li><a href="zhuce.html" class="right_border">注册</a></li>
+								<li id="shouji"><a href="" class="right_border">手机糯米</a></li>
+								<li><a href="" class="right_border">我的订单</a></li>
+								<li id="list"><a href="" class="right_border">我的糯米</a></li>
+								<li><a href="" class="right_border">最近浏览</a></li>
+								<li id="shangjia"><a href="" class="right_border">我是商家</a></li>
+								<li><a href="https://q.nuomi.com/static/qstore/page/landingpage.html" class="right_border">糯米企业版</a></li>
+								<li><a href="" class="right_border">帮助中心</a></li>
+								<li id="guanzhu"><a href="" class="right_border">关注</a></li>
+								<li><a href="" class="right_border">收藏</a></li>
+								<li><a href="">食品安全</a></li>
+							</ul>
+						</li>
+					</ul>
+					<div id="city">
+						<div id="city_hot">
+							<a>热门城市</a>
+						</div>
+						<div id="city_chose">
+							<ul>
+								<li><a>北京</a></li>
+								<li><a>上海</a></li>
+								<li><a>广州</a></li>
+								<li><a>深圳</a></li>
+								<li><a>天津</a></li>
+								<li><a>杭州</a></li>
+								<li><a>成都</a></li>
+								<li><a>西安</a></li>
+								<li><a>郑州</a></li>
+								<li><a>厦门</a></li>
+								<li><a>青岛</a></li>
+								<li><a>太原</a></li>
+								<li><a>重庆</a></li>
+								<li><a>武汉</a></li>
+								<li><a>南京</a></li>
+								<li><a>沈阳</a></li>
+								<div id="clear"></div>
+							</ul>
+						</div>
+						<div id="city_more">
+							<a>更多城市&gt;</a>
+						</div>
+					</div>
+					<div id="list_xia">
+						<ul>
+							<li><a>我的订单</a></li>
+							<li><a>选座订票</a></li>
+							<li><a>我的收藏</a></li>
+							<li><a>我的评价</a></li>
+							<li><a>我的余额</a></li>
+							<li><a>我的优惠券</a></li>
+							<li><a>账户设置</a></li>
+							<li><a>我的百度</a></li>
+						</ul>
+					</div>
+					<div id="shoujierweima">
+						<img src="img/first/qr-code-text-discount-1x_92cec22.png" />
+					</div>
+					<div id="hezuo">
+						<ul>
+							<li><a>商家合作</a></li>
+							<li><a>我想合作</a></li>
+						</ul>
+					</div>
+					<div id="weixin">
+						<img src="img/first/new-erweima_c0dcfe4.png"/>
+					</div>
+				</div>
+			</div>
+			<div id="contianer">
+				<div id="content">
+					<div id="logo_1">
+						<a href="index.html"><img src="img/mylist/logo.png" style="height: 40px;"/></a>
+					</div>
+					<div id="search">
+						<input type="text" id="search_inp" placeholder="搜索商家或地点:" />
+						<ul>
+							<li><a>聚优惠</a></li>
+							<li><a>梅森凯瑟</a></li>
+							<li><a>万达</a></li>
+						</ul>
+						<div id="search_pic">
+							<img src="img/first/search.svg" style="width: 15px;"/>
+						</div>
+					</div>
+					<div id="search_tb">
+						<ul id="search_tb_ul">
+							<li><a href=""><img src="img/first/tui.svg"/></a></li>
+							<li><a href=""><img src="img/first/pei.svg" id="pei"/></a></li>
+							<li><a href=""><img src="img/first/mony.svg"/></a></li>
+						</ul>
+					</div>
+					<div id="nav">
+						<div id="nav_lanmu">
+							<ul>
+								<li id="nav_fenlei">
+									<span>全部分类</span>
+								</li>
+								<li><a href="index.html" style="list-style: none;text-decoration: none; color: #FFFFFF;">首页</a></li>
+								<li><a>精选品牌</a><img src="img/first/HOT.svg" style="width: 20px;"/></li>
+								<li><a>电影</a><img src="img/first/HOT.svg" style="width: 20px;"/></li>
+								<li><a>酒店</a></li>
+								<li><a>出行</a></li>
+								<li><a>一元抢宝</a></li>
+								<li><a>外卖</a></li>
+								<li><a>今日新单</a></li>
+							</ul>
+						</div>
+					</div>
+					<div id="nav_left">
+						<ul id="nav_left_geshi">
+							<li  id="nav_left_meishi">
+								<a id="nav_left_list">美食</a><span id="nav_left_font"><a>精选品牌</a><a>小吃快餐</a></span>
+								<div id="meishi_list">
+									<ul id="meishi_list_remen">
+										<p>热门分类</p>
+										<li><a class="right_border">精选品牌</a></li>
+										<li><a class="right_border">其他美食</a></li>
+										<li><a class="right_border">火锅</a></li>
+										<li><a class="right_border">小吃快餐</a></li>
+										<li><a class="right_border">自助餐</a></li>
+										<li><a class="right_border">海鲜</a></li>
+										<li><a class="right_border">烧烤/烤肉</a></li>
+										<li><a class="right_border">干锅/香锅</a></li>
+										<li><a class="right_border">甜品</a></li>
+										<li><a class="right_border">蛋糕</a></li>
+										<li><a class="right_border">咖啡</a></li>
+										<li><a class="right_border">婚宴</a></li>
+										<li><a class="right_border">夏日饮品</a></li>
+										<li><a class="right_border">小龙虾</a></li>
+										<li><a class="right_border">酒吧</a></li>
+										<li><a class="right_border">粥店</a></li>
+										<li><a style="color: #999;font-size: 5px; margin-left:10px;">今日新单</a></li>
+									</ul>
+									<ul id="meishi_list_zgc">
+										<p style="color: #000;font-size: 5px;margin-left: 10px;">中国菜</p>
+										<li><a class="right_border">粤菜</a></li>
+										<li><a class="right_border">川湘菜</a></li>
+										<li><a class="right_border">浙江菜</a></li>
+										<li><a class="right_border">北京菜</a></li>
+										<li><a class="right_border">新疆菜</a></li>
+										<li><a class="right_border">东北菜</a></li>
+										<li><a class="right_border">云贵菜</a></li>
+										<li><a class="right_border">鲁菜</a></li>
+										<li><a class="right_border">西北菜</a></li>
+										<li><a class="right_border">素菜</a></li>
+										<li><a class="right_border">创意菜/私房菜</a></li>
+										<li><a class="right_border">台北菜/客家菜</a></li>
+										<li><a class="right_border">微菜</a></li>
+										<li><a class="right_border">烤鱼</a></li>
+										<li><a class="right_border">烤鸭</a></li>
+										<li><a class="right_border">麻辣烫/冒菜</a></li>
+										<li><a style="color: #999;font-size: 5px; margin-left:10px;">中餐/家常菜</a></li>
+									</ul>
+									<ul id="meishi_list_wgc">
+										<p style="color: #000;font-size: 5px;margin-left: 10px;">外国菜</p>
+										<li><a class="right_border">韩国料理</a></li>
+										<li><a class="right_border">东南亚菜</a></li>
+										<li><a class="" style="color: #999;font-size: 5px; margin-left:10px;">西餐</a></li>
+									</ul>
+								</div>
+								
+							</li>
+							<li id="nav_left_movie">
+								<a id="nav_left_list">电影</a><span id="nav_left_font"><a>在线选座</a><a>电影票团购</a></span>
+								<div id="movie_list">
+									<ul id="movie_list_hot">
+										<p style="color: #000;font-size: 5px;margin-left: 10px;">热门电影</p>
+										<li><a class="right_border">神奇动物在哪里</a></li>
+										<li><a class="right_border">海洋奇缘</a></li>
+										<li><a class="right_border">冲天火</a></li>
+										<li><a class="right_border">我不是潘金莲</a></li>
+										<li><a class="right_border">名侦探柯南</a></li>
+										<li><a class="right_border">奇异博士</a></li>
+										<li><a class="right_border">你的名字。</a></li>
+										<li><a class="right_border">最萌身高差</a></li>
+										<li><a class="right_border">我是处女座</a></li>
+										<li><a class="right_border">深海浩劫</a></li>
+										<li><a class="right_border">夏威夷之恋</a></li>
+										<li><a class="right_border">间谍同盟</a></li>
+										<li><a class="right_border">佩小姐的奇幻城堡</a></li>
+										<li><a class="right_border">勇士之门</a></li>
+										<li><a class="right_border">比利·林恩的中场战事</a></li>
+										<li><a class="right_border">三少爷的剑</a></li>
+										<li><a class="right_border">怨灵地下室</a></li>
+										<li><a class="right_border">阿拉丁与神灯</a></li>
+										<li><a class="right_border">外公芳龄28</a></li>
+										<li><a class="right_border">航海王之黄金城</a></li>
+										<li><a class="right_border">28岁未成年</a></li>
+										<li><a class="right_border">白云桥湄公河行动</a></li>
+										<li><a style="color: #999;font-size: 5px; margin-left:10px;">聊斋新编之画皮新娘</a></li>
+									</ul>
+									<ul id="movie_list_juyuan">
+										<p>热门院线</p>
+										<li><a class="right_border">太原金亿国际影城</a></li>
+										<li><a class="right_border">中国国际影城</a></li>
+										<li><a class="right_border">中影世纪国际影城</a></li>
+										<li><a style="color: #999;font-size: 5px; margin-left:10px;">太原宽银幕电影院</a></li>
+									</ul>
+								</div>
+							</li>
+							<li id="nav_left_xiuxianyule">
+								<a id="nav_left_list">休闲娱乐</a>
+								<div id="xiuxianyule">
+									<ul id="xiuxianyule_1">
+										<li><a class="right_border">温泉洗浴</a></li>
+										<li><a class="right_border">KTV</a></li>
+										<li><a class="right_border">足疗按摩</a></li>
+										<li><a class="right_border">文采艺术</a></li>
+										<li><a class="right_border">采摘</a></li>
+										<li><a class="right_border">私人影院</a></li>
+										<li><a class="right_border">桌游</a></li>
+										<li><a class="right_border">电玩/游戏币</a></li>
+										<li><a class="right_border">DIY手工</a></li>
+										<li><a class="right_border">密室逃脱</a></li>
+										<li><a class="right_border">真人CS</a></li>
+										<li><a class="right_border">卡丁车</a></li>
+										<li><a class="right_border">其他娱乐活动</a></li>
+										<li><a class="right_border">游泳</a></li>
+										<li><a style="color: #999;font-size: 5px; margin-left:10px;">滑雪/滑冰</a></li>
+									</ul>
+									<ul id="xiuxianyule_2">
+										<li><a class="right_border">养生保健</a></li>
+										<li><a class="right_border">游乐园/水上游乐园</a></li>
+										<li><a class="right_border">录音棚</a></li>
+										<li><a class="right_border">运动健身</a></li>
+										<li><a class="right_border">演出赛事</a></li>
+										<li><a class="right_border">轰趴馆</a></li>
+										<li><a class="right_border">网吧网咖</a></li>
+										<li><a class="right_border">VR体验馆</a></li>
+										<li><a class="right_border">玩酷</a></li>
+										<li><a class="right_border">画室画廊</a></li>
+										<li><a class="right_border">展览</a></li>
+										<li><a class="right_border">台球</a></li>
+										<li><a class="right_border">展览</a></li>
+										<li><a style="color: #999;font-size: 5px; margin-left:10px;">今日新单</a></li>
+									</ul>
+								</div>
+							</li>
+							<li><a id="nav_left_list">一元抢宝</a><span id="nav_left_font"><a>苹果手机</a><a>小米手机</a></span></li>
+							<li><a id="nav_left_list">生活服务</a><span id="nav_left_font"><a>配镜</a><a>丽人</a></span></li>
+							<li><a id="nav_left_list">酒店</a><span id="nav_left_font"><a>太原</a><a>北京</a><a>上海</a></span></li>
+							<li><a id="nav_left_list">本地生活</a><span id="nav_left_font"><a>温泉洗浴</a><a>采摘</a></span></li>
+							<li><a id="nav_left_list">丽人</a><span id="nav_left_font"><a>美发</a><a>美甲</a><a>美容SPA</a></span></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			
+			<div id="content_bg">
+				<div id="container_content">
+					<div id="user_info">
+						<div id="user_info_name">
+							<span id="username">过眼云烟的曾经</span>
+							<span id="tel">手机绑定</span>
+							<span id="tel_info">181****3598</span>
+							<span id="xiugai">修改</span>
+						</div>
+						<div id="user_money">
+							<span id="my_money">我的余额</span>
+							<span id="money_cion">¥0</span>
+							<span id="my_money">优惠券</span>
+							<span id="money_cion">0</span>
+						</div>
+					</div>
+					
+					
+					<div id="user_list">
+						<div id="user_info_list">
+							<ul>
+								<li id="user_info_list_first">
+									<span id="font" class="mylist1">我的订单</span>
+									<ul class="mylist_content1">
+										<li class="lishow" id="tuangou"><a>团购订单</a></li>
+										<li id="chuzhika"><a>储值卡</a></li>
+										<li id="wuliudan"><a>物流单</a></li>
+										<li><a>电影选座</a></li>
+									</ul>
+								</li>
+								<li id="user_info_list_first">
+									<span id="font" class="mylist2">我的评价</span>
+									<ul class="mylist_content2">
+										<li id="daipingjia"><a>待评价</a></li>
+										<li><a>已评价</a></li>
+									</ul>
+								</li>
+								<li id="user_info_list_first">
+									<span id="font">我的收藏</span>
+								</li>
+								<li id="user_info_list_first">
+									<span id="font" class="mylist3">我的账户</span>
+									<ul class="mylist_content3">
+										<li id="zhanghu"><a>账户设置</a></li>
+										<li><a>我的红包</a></li>
+										<li><a>代金券</a></li>
+										<li><a>账户余额</a></li>
+									</ul>
+								</li>
+							</ul>
+							
+							<div class="w-phone-info">
+								<p class="phone-num">4006-888-887</p>
+								<p class="phone-tips">客服电话 免长途费<br>周一至周日 9:00-22:00</p>
+								<span class="sprite-line"></span>
+							</div>
+						</div>
+						<div id="user_info_content">
+							<div id="user_info_nav">
+								<ul>
+									<li><a class="show">全部</a></li>
+									<li><a>未使用</a></li>
+									<li><a>即将到期</a></li>
+									<li><a>待付款</a></li>
+									<li><a>已使用</a></li>
+									<li><a>已过期</a></li>
+									<li><a>退款</a></li>
+								</ul>
+							</div>
+							<div id="user_info_tab">
+								<div id="user_tuangou">
+									<table border="" cellspacing="" cellpadding="">
+										<tr id="th">
+											<td width="80">
+												<input type="checkbox" name="checkbox" id="checkbox"/><label for="checkbox">全选</label>
+											</td>
+											<td width="300">团购信息</td>
+											<td width="60" class="right_text">单价</td>
+											<td width="100" class="right_text">数量</td>
+											<td width="110" class="right_text">实付金额</td>
+											<td width="120" class="right_text">状态</td>
+											<td width="40" class="right_text">操作</td>
+										</tr>
+										
+										<tr>
+											<td width="40"><input type="checkbox" name="checkbox1" id="checkbox1"/></td>
+											<td width="300">
+												<div id="goods_name_img">
+													<img src="img/mylist/a8ec8a13632762d01ce0af41a3ec08fa503dc676.jpg" style="width: 95px;height: 55px;"/>
+												</div>
+												<div id="googs_name">
+													<h6>学府网咖24小时上网</h6><br />
+													<span id="googs_name_fonts">有效期至：2017-03-30</span>
+												</div>
+											</td>
+											<td width="80" class="right_text" id="dj1">¥3</td>
+											<td width="120" style="text-align: center;">
+												<button>-</button>
+												<input type="text" style="width: 20px; text-align: center;" value="1" id="text1" class="text"/>
+												<button>+</button>
+											</td>
+											<td width="110" id="sold1" class="right_text"></td>
+											<td width="120" class="right_text">已使用</td>
+											<td class="right_text">
+												结账<br />
+												<span id="delate1" class="delate">删除</span>
+											</td>
+										</tr>
+										<tr>
+											<td width="40"><input type="checkbox" name="checkbox2" id="checkbox2"/></td>
+											<td width="300">
+												<div id="goods_name_img">
+													<img src="img/shangpin/b17eca8065380cd79425c9ffa744ad34598281ec.jpg" style="width: 95px;height: 55px;"/>
+												</div>
+												<div id="googs_name">
+													<h6>丁丁洋回转自助火锅</h6><br />
+													<span id="googs_name_fonts">有效期至：2016-12-31</span>
+												</div>
+											</td>
+											<td width="80" class="right_text" id="dj2">¥69</td>
+											<td width="120" class="right_text">
+												<button>-</button>
+												<input type="text" style="width: 20px; text-align: center;" value="1" id="text2" class="text"/>
+												<button>+</button>
+											</td>
+											<td width="110" id="sold2" class="right_text"></td>
+											<td width="120" class="right_text">已使用</td>
+											<td class="right_text">
+												结账<br />
+												<span id="delate2" class="delate">删除</span>
+											</td>
+										</tr>
+										<tr>
+											<td width="40"><input type="checkbox" name="checkbox3" id="checkbox3"/></td>
+											<td width="300">
+												<div id="goods_name_img">
+													<img src="img/first/b762fc70-3812-46a7-b04d-5c8e62d0be41.jpg" style="width: 95px;height: 55px;"/>
+												</div>
+												<div id="googs_name">
+													<h6>红米Note4</h6><br />
+													<span id="googs_name_fonts">有效期至：2016-12-31</span>
+												</div>
+											</td>
+											<td width="80" class="right_text" id="dj3">¥899</td>
+											<td width="120" class="right_text">
+												<button>-</button>
+												<input type="text" style="width: 20px; text-align: center;" value="1" id="text3" class="text"/>
+												<button>+</button>
+											</td>
+											<td width="110" id="sold3" class="right_text"></td>
+											<td width="120" class="right_text">已发货</td>
+											<td>
+												结账<br />
+												<span id="delate3" class="delate">删除</span>
+											</td>
+										</tr>
+										<tr id="th">
+											<td width="80">
+												<span id="nocheckbox">全不选</span>
+											</td>
+											<td width="300"></td>
+											<td width="60"></td>
+											<td width="100"></td>
+											<td width="120"></td>
+											<td width="120">总价：</td>
+											<td width="40" id="sum" style="color: red;"></td>
+										</tr>
+									</table>
+								</div>
+							</div>	
+							<div id="userchuzhika">
+								<div id="user_chuzhika_img"  style="text-align: center;">
+									<img src="img/mylist/new_no_order_4ce42d5.png"/>
+									<h2 style="color: #999; font-family: '微软雅黑';">暂无订单</h2>
+								</div>
+								<div class="card-help">
+									<div class="rule">
+										<ul>
+											<li class="rule-tit">储值卡的作用</li>
+											<li>储值卡是糯米商户发行的单用途电子预付卡。</li>
+											<li>到商家消费时,可使用其发行的储值卡直接付款。</li>
+										</ul>
+										<ul>
+											<li class="rule-tit">与团单代金券的区别</li>
+											<li>代金券和储值卡都可以在指定商家抵扣现金。</li>
+											<li>代金券不可拆分使用，储值卡可以拆分多次付款。</li>
+											<li>储值卡可自助付款抵扣现金。</li>
+										</ul>
+										<ul>
+											<li class="rule-tit">使用说明</li>
+											<li>在我的储值卡页中选择储值卡，输入消费金额告知收银员确认即可。</li>
+											<li>不同的储值卡的面值、有效期和使用限制不同，使用前请认真阅读。</li>
+											<li>储值卡不记名、不挂失、不兑现、不计息。</li>
+											<li>储值卡只能单独下单购买（即不能与其他商品同时下单购买），且不能使用代金券、红包进行购买。</li>
+											<li>储值卡仅能在指定商家所属门店消费，不同糯米商家不可通用。</li>
+											<li>储值卡只限于普通消费者使用，如发现有经销商或其他非普通消费者使用，百度糯米有权立即取消订单并做相关处理。</li>
+											<li>所有储值卡严禁出售或转让，如经发现并证实的，将予以作废处理。</li>
+											<li>储值卡订单，退款结算按照实际支付金额退款；部分退货的订单，将取消该笔订单的促销优惠。</li>
+										</ul>
+									</div>
+								</div>
+							</div>
+							
+							<div id="shouhuo">
+								<div id="user_info_nav">
+									<ul>
+										<li><a class="show">全部</a></li>
+										<li><a>待付款</a></li>
+										<li><a>待发货</a></li>
+										<li><a>已发货</a></li>
+										<li><a>退款</a></li>
+									</ul>
+								</div>
+								<div id="user_chuzhika_img"  style="text-align: center;">
+									<img src="img/mylist/new_no_order_4ce42d5.png"/>
+									<h2 style="color: #999; font-family: '微软雅黑';">暂无全部订单</h2>
+								</div>
+							</div>
+							
+							<div id="user_info_nav">
+								<ul>
+									<li><a class="show">待评价</a></li>
+									<li><a>已评价</a></li>
+								</ul>
+							</div>
+							<div id="user_chuzhika_img"  style="text-align: center;"> 
+								<table>
+									<tr>
+										<th style="font-size: 12px; color: #333;">学府网咖24小时上网</th>
+									</tr>
+									<tr>
+										<td width="105px">
+											<img src="img/mylist/a8ec8a13632762d01ce0af41a3ec08fa503dc676.jpg" style="width: 95px;height: 55px;"/>
+										</td>
+										<td width="451px" style="text-align: left;">
+											<p>24小时上网！提供免费WiFi！</p>
+										</td>
+										<td>
+											<span>评价：</span>
+											<div id="pingjia"></div>
+										</td>
+									</tr>
+								</table>
+								<table style="display: none;">
+									<tr>
+										<th style="font-size: 12px; color: #333;">丁丁洋回转自助火锅</th>
+									</tr>
+									<tr>
+										<td width="105px">
+											<img src="img/shangpin/b17eca8065380cd79425c9ffa744ad34598281ec.jpg" style="width: 95px;height: 55px;"/>
+										</td>
+										<td width="451px" style="text-align: left;">
+											<p>丁丁洋回转自助火锅</p>
+										</td>
+										<td>
+											<span>评价：</span>
+											<div id="pingjia"></div>
+										</td>
+									</tr>
+								</table>
+							</div>
+							
+							<div id="user_info_nav" style="display: none;">
+								<ul>
+									<li><a class="show">基本资料</a></li>
+									<li id="shouhuodizhi"><a>收货地址</a></li>
+									<li><a>资产安全管理</a></li>
+								</ul>
+							</div>
+							<div id="user_ziliao" style="display: none;">
+								<ul>
+									<li>
+										<p>用户名：过眼云烟的曾经<span>百度账号设置</span></p>
+									</li><br />
+									<li>
+										<p>密码：**********<span>修改密码</span></p>
+									</li><br />
+									<li>
+										<p>手机号：183****0850<span>绑定新手机号</span></p>
+									</li><br />
+								</ul>
+								<div>可用余额：<a>查询</a><a>充值</a><a>提现</a><a>原糯米余额提现事宜，请拨打客服电话4006-888-887完成提现。</a></div>
+							</div>
+							<div id="shouhuodizhi" style="display: none;">
+								<h5>收货地址</h5>
+								<div id="add_address">
+									<p>
+										<span></span>添加收货地址
+									</p>
+								</div>
+								<ul class="w-add-address-form">
+									<li>
+										<p class="add-address-tit fl">
+											<span class="red">*</span>
+											所在地区：
+										</p>
+										<p class="add-address-con fl">
+											<select name="province" id="province">
+												<option value="0" selected="selected">省份</option>
+												<option value="101101">北京市</option>
+												<option value="101102">天津市</option>
+												<option value="101103">河北省</option>
+												<option value="101104">山西省</option>
+												<option value="101105">内蒙古</option>
+												<option value="102101">辽宁省</option>
+												<option value="102102">吉林省</option>
+												<option value="102103">黑龙江省</option>
+												<option value="103101">上海市</option>
+												<option value="103102">江苏省</option>
+												<option value="103103">浙江省</option>
+												<option value="103104">安徽省</option>
+												<option value="103105">福建省</option>
+												<option value="103106">江西省</option>
+												<option value="103107">山东省</option>
+												<option value="104101">河南省</option>
+												<option value="104102">湖北省</option>
+												<option value="104103">湖南省</option>
+												<option value="104104">广东省</option>
+												<option value="104105">广西省</option>
+												<option value="104106">海南省</option>
+												<option value="105100">重庆市</option>
+												<option value="105101">四川省</option>
+												<option value="105102">贵州省</option>
+												<option value="105103">云南省</option>
+												<option value="105104">西藏</option>
+												<option value="106101">陕西省</option>
+												<option value="106102">甘肃省</option>
+												<option value="106103">青海省</option>
+												<option value="106104">宁夏</option>
+												<option value="106105">新疆</option>
+											</select>
+											<select name="city_a" id="city_a">
+												<option value="0" selected="selected">城市</option>
+											</select>
+											<select name="district" id="district">
+												<option value="0" selected="selected">区域</option>
+											</select>
+											<!--<span class="msg red" id="area-msg">您还没有选择您所在的省份</span>-->
+										</p>
+									</li>
+									<li>
+										<p class="add-address-tit fl">
+											<span class="red">*</span>街道地址：
+										</p>
+										<p class="add-address-con fl">
+											<input type="text" class="wid390" name="street" id="street" maxlength="60">
+											<span class="msg ml10 red msg-hide" id="street-msg">&nbsp;</span>
+										</p>
+									</li>
+									<li>
+										<p class="add-address-tit fl">
+											<span class="red">*</span>邮政编码：
+										</p>
+										<p class="add-address-con fl">
+											<input type="text" class="form" name="post_code" id="post-code" maxlength="6">
+											<a class="link pl5" href="http://opendata.baidu.com/post/s" id="J-post-link" target="_blank">邮编查询</a>
+											<span class="msg ml10 red msg-hide" id="postcode-msg">&nbsp;</span>
+										</p>
+									</li>
+									<li>
+										<p class="add-address-tit fl">
+											<span class="red">*</span>收货人姓名：
+										</p>
+										<p class="add-address-con fl">
+											<input type="text" class="form" name="name" id="name" maxlength="15">
+											<span class="msg ml10 red msg-hide" id="name-msg">&nbsp;</span>
+										</p>
+									</li>
+									<li>
+										<p class="add-address-tit fl">
+											<span class="red">*</span>手机号码：
+										</p>
+										<p class="add-address-con fl">
+											<input type="text" class="form" name="phone" id="phone" maxlength="11">
+											<span class="msg ml10 red msg-hide" id="phone-msg">&nbsp;</span>
+										</p>
+									</li>
+									<li>
+										<p class="add-address-tit fl">
+											电话号码：
+										</p>
+										<p class="add-address-con fl">
+											<input type="text" class="wid60" name="telephone_district" id="tel-district" placeholder="区号">&nbsp;-&nbsp;
+											<input type="text" class="wid100" name="telephone" id="tel" placeholder="电话号码">&nbsp;-&nbsp;
+											<input type="text" class="wid60" name="telephone_ext" id="tel-ext" placeholder="分机">
+											<span class="msg ml10 red msg-hide" id="tel-msg">&nbsp;</span>
+										</p>
+									</li>
+										<input type="hidden" class="form wid60" name="token" id="token" value="7a8e782cd34f54f096e7f78b1e249552">
+									<li class="button-wrap">
+										<p class="add-address-tit fl">&nbsp;</p>
+										<p class="add-address-con fl">
+											<a href="javascript:;" class="btn-m btn-pink mr10" id="J-save-address">保存</a>
+											<a href="javascript:;" class="btn-m btn-gray" id="J-cancel-add-address">取消</a>
+										</p>
+									</li>
+								</ul>
+							</div>
+							<div id="zichan_guanli" style="display: none;">
+								<p>支付密码：保护资产安全，在资产变动时使用</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			
+			
+			
+			
+			
+			
+			<div id="footer_content">
+				<div id="footer">
+					<div id="footer_list">
+						<div id="footer_list_1">
+							<h3>用户帮助</h3>
+							<ul>
+								<li><a href="//www.nuomi.com/help">常见团购问题</a></li>
+								<li><a href="//www.nuomi.com/help/api">开放API</a></li>
+							</ul>
+						</div>
+						<div id="footer_list_2">
+							<h3>手机百度助手</h3>
+							<ul>
+								<li><a href="https://m.nuomi.com" target="_blank">百度糯米触屏版</a></li>
+								<li><a href="//d.nuomi.com/inter/group?from=WebRootWord" target="_blank">下载手机版</a></li>
+							</ul>
+						</div>
+						<div id="footer_list_2">
+							<h3>商务合作</h3>
+							<ul>
+								<li><a href="//www.nuomi.com/links">友情链接</a></li>
+								<li><a href="http://cooperation.nuomi.com/clue/index">市场合作</a></li>
+							</ul>
+						</div>
+						<div id="footer_list_2">
+							<h3>公司信息</h3>
+							<ul>
+								<li><a href="//www.nuomi.com/about">关于百度糯米</a></li>
+								<li><a href="http://weibo.com/nuomiwang" target="_blank">百度糯米新浪微博</a></li>
+								<li><a id="j-tttel">违规投诉&amp;廉政举报</a></li>
+							</ul>
+						</div>
+						<div id="footer_list_3">
+							<h3>4006-888-887</h3>
+							<ul>
+								<li>周一至周日&nbsp;9:00-22:00</li>
+								<li>客服电话&nbsp;免长途费</li>
+							</ul>
+							<a href="//d.nuomi.com/inter/group?from=WebRootWord" class="mobile-btn" style="color: #FFFFFF;">手机专享优惠</a>
+						</div>
+					</div>
+				</div>
+				<div id="copyright-info">
+					<div class="site-info">
+					<span class="copyright">©</span>2016&nbsp;nuomi.com&nbsp;<a href="http://www.miitbeian.gov.cn" class="link">京ICP证030173号</a>
+					&nbsp;京公网安备11010802014106号
+					&nbsp;<a href="/pcindex/main/about/openinfo">营业执照信息</a>
+					</div>
+					<div class="icons">
+					<span class="ico-qianbao">百度钱包</span>
+					<span class="ico-zhifubao">支付宝-特约商家</span>
+					<span class="ico-kexin">可信网站 身份验证</span>
+					<span class="ico-web-trust">网站认证 Web Trust</span>
+					</div>
+				</div>
+				<div style="width:300px;margin:0 auto; padding:20px 0;">
+					<a style="display:inline-block;text-decoration:none;height:20px;line-height:20px;"><p style="float:left;height:20px;line-height:20px;margin: 0px 0px 0px 5px; color:#939393;">京公网安备 11000002000001号</p></a>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

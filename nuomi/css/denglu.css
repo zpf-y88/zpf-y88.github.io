@@ -1,0 +1,237 @@
+#denglu_body{
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 600px;
+	overflow: hidden;
+}
+#denglu_head_bg{
+	width: 1000px;
+	margin: 0 auto;
+	margin-bottom: 40px;
+}
+#denglu_head_bg img{
+	position: relative;
+	top: 20px;
+}
+#denglu_head_bg p{
+	font-family: "微软雅黑";
+	font-size: 18px;
+	color: #666;
+	padding-left: 20px;
+	border-left: 1px solid #999999;
+	display: inline;
+	position: relative;
+	top: 10px;
+}
+#denglu_content_bg{
+	width: 100%;
+	position: relative;
+	background: #F5FBFD;
+	overflow: hidden;
+}
+#denglu_content{
+	width: 1000px;
+	min-width: 1000px;
+	margin: 0 auto;
+}
+#denglu_content_body_left{
+    float: left;
+    margin-top: 49px;
+    width: 623px;
+    height: 337px;
+    background: url(../img/denglu/login-logo_30a0915.png) no-repeat;
+}
+#denglu_content_body_right{
+    float: right;
+    position: relative;
+    margin-top: 49px;
+    padding: 20px 14px;
+    width: 279px;
+    min-height: 247px;
+    background: #fff;
+}
+#title{
+    height: 25px;
+    line-height: 25px;
+    font-size: 17px;
+    font-weight: 700;
+    color: #666;
+}
+#phone_chose{
+	text-align: right;
+}
+#phone_chose a{
+    font-size: 12px;
+    font-family: Arial,"宋体";
+}
+#zh_login{
+	display: block;
+}
+#zh_login_img{
+	position: absolute;
+	width: 34px;
+	height: 34px;
+}
+#zh_login p a img{
+	margin: 6px 6px;
+}
+#password,#uersname{
+	padding: 8px 40px;
+	background-color: rgb(250, 255, 189);
+    border: 1px solid #F0F0F0;
+}
+#zh_login p label{
+	color: #666;
+    font-size: 12px;
+    position: relative;
+    top: -3px;
+}
+#zh_login_problom{
+	font-size: 12px;
+    font-family: Arial,"宋体";
+    color: #73ABC9;
+    position: relative;
+    top: -3px;
+    left: 80px;
+}
+#btn{
+	background: #FF78A5;
+	width: 279px;
+    height: 39px;
+    font-family: "Microsoft Yahei";
+    border-bottom: 1px solid #FD528B!important;
+    background: #F69;
+    font-size: 14px;
+    font-weight: 700;
+    border: 0;
+    color: #fff;
+    cursor: pointer;
+    margin-top: 30px;
+}
+#dx_login_img{
+	position: absolute;
+	width: 34px;
+	height: 34px;
+}
+#dx_login p a img{
+	margin: 6px 6px;
+}
+#chose{
+	cursor: pointer;
+}
+#uersname1{
+	padding: 8px 40px;
+    border: 1px solid #F0F0F0;
+}
+#dtyzm{
+	width: 100px;
+	padding: 8px;
+	border: 1px solid #F0F0F0;
+}
+#btn1{
+	width: 100px;
+    height: 35px;
+    font-family: "Microsoft Yahei";
+    border: 1px solid #999;
+    background: #F7F7F7;
+    font-size: 14px;
+    border: 0;
+    color: #000;
+    cursor: pointer;
+    margin-top: 30px;
+    margin-left: 25px;
+}
+#btn1:hover{
+	background: #DDDDDD;
+}
+#dx_login{
+	display: none;
+}
+#dx_login_xieyi,#dx_login_btn{
+	font-size: 12px;
+	font-family: "微软雅黑";
+}
+#dx_login_btn{
+	color: blue;
+	position: relative;
+	left: 45px;
+	cursor: pointer;
+}
+#dx_login_btn:hover{
+	text-decoration: underline;
+}
+#qq1_wx_wb,#qq_wx1_wb,#qq_wx_wb1{
+	float: left;
+	background: url(../img/denglu/pass_login_icons_7c6e14d.png)no-repeat;
+	width: 24px;
+	height: 24px;
+	margin-right: 10px;
+	margin-top: 10px;
+}
+#qq1_wx_wb{
+	background-position: -88px 0;
+}
+#qq_wx1_wb{
+    background-position: -64px 0;
+    height: 24px;
+}
+#qq_wx_wb1{
+	background-position:-112px 0;
+}
+#login_link{
+    position: absolute;
+    top: 30px;
+    right: 180px;
+    color: #666;
+}
+#login_link span{
+    font-size: 12px;
+    font-family: Arial,"宋体";
+}
+#login_btn{
+	font-weight: 700;
+    color: #666;
+    height: 32px;
+    width: 64px;
+    border: 0;
+    background: url(../img/zhuce/reg_icons.png) no-repeat 0 -48px;
+	cursor:pointer
+} 
+.w-footer-mini {
+    border-top: 5px solid #DBDBDB;
+    padding: 40px 0 20px;
+    width: 980px;
+    margin: 0 auto;
+    text-align: center;
+    color: #666;
+    font-size: 10px;
+    line-height: 40px;
+    font-family: "微软雅黑";
+    color: #666;
+}
+.wrap{
+	width: 980px;
+    margin: 0 auto;
+}
+.site-info {
+    line-height: 40px;
+    font-family: SimSun;
+    color: #999;
+}
+.links span {
+    margin: 0 12px;
+    color: #666;
+}
+.links a{
+	text-decoration: none;
+	color: #666;
+}
+
+
+
+
+
+
+
+

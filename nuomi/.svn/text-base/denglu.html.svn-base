@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>百度糯米</title>
+		<link rel="stylesheet" type="text/css" href="css/reset.css"/>
+		<link rel="stylesheet" type="text/css" href="css/denglu.css"/>
+		<script src="js/denglu.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+	<body>
+		<div id="denglu_body">
+			<div id="denglu_head_bg">
+				<img src="img/zhuce/logo-nuomi.png"/>
+				<p>登陆</p>
+			</div>
+			<div id="login_link">
+				<span>还没有百度糯米账号</span>
+				<a href="zhuce.html"><button id="login_btn">注册</button></a>
+			</div>
+			<hr style="height:1px;border:none;border-top:1px solid #DFDFDF" />
+			<div id="denglu_content_bg">
+				<div id="denglu_content">
+					<div id="denglu_content_body">
+						<div id="denglu_content_body_left"></div>
+						<div id="denglu_content_body_right">
+							<div id="title">登录百度糯米</div>
+							<div id="denglu_body_right">
+								
+								<div id="zh_login" class="show">
+									<div id="phone_chose">
+									<img src="img/zhuce/phone.png" style="width: 10px;"/>
+									<a id="chose">短信快捷登陆</a>
+									</div><br />
+									<p>
+										<a id="zh_login_img"><img src="img/denglu/yonghuming.svg"style="width: 20px;"/></a>
+										<input type="text" name="uersname" id="uersname" value="" placeholder="手机/邮箱/用户名/糯米账号"/>
+									</p><br />
+									<p>
+										<a id="zh_login_img"><img src="img/denglu/mima.svg"style="width: 20px;"/></a>
+										<input type="password" name="password" id="password" value="" placeholder="密码"/>
+									</p><br />
+									<p>
+										<input type="checkbox" name="checkbox" id="checkbox" value="" />
+										<label for="checkbox">下次自动登录</label>
+										<a id="zh_login_problom">登陆遇到问题</a>
+									</p>
+									<p>
+										<input type="button" id="btn" value="登录" />
+									</p>
+								</div>
+								<div id="dx_login">
+									<br />
+									<p>
+										<a id="dx_login_img"><img src="img/denglu/phone.svg"style="width: 20px;"/></a>
+										<input type="text" name="uersname1" id="uersname1" value="" placeholder="请输入手机号"/>
+									</p>
+									<p>
+										<input type="text" name="dtyzm" id="dtyzm" value="" />
+										<input type="button" id="btn1" value="发送验证码" />
+									</p>
+									<p>
+										<input type="button" id="btn" value="登录" />
+									</p>
+									<p>
+										<a id="dx_login_xieyi">阅读并接受《百度用户协议》</a>
+										<a id="dx_login_btn">账号密码登录</a>
+									</p>
+								</div>
+								<ul id="qq_wx_wb">
+									<li id="qq1_wx_wb" data-dialog="1" data-acc="15" data-height="450" data-width="750">
+									</li>
+									<li id="qq_wx1_wb" data-dialog="1" data-acc="2" data-height="669" data-width="800">
+									</li>
+									<li id="qq_wx_wb1" data-dialog="1" data-acc="4" data-height="410" data-width="610">
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="w-footer-mini">
+				<div class="wrap">
+					<div class="links">
+						<a href="//www.nuomi.com/about" class="link">关于百度糯米</a><span>|</span>
+						<a href="//www.nuomi.com/help" class="link">常见问题</a><span>|</span>
+						<a href="javascript:;" class="link" id="j-tttel">违规投诉&amp;廉政举报</a><span>|</span>
+						<a href="//www.nuomi.com/help/api" class="link">开放平台</a><span>|</span>
+						<a href="//www.nuomi.com/about/eula" class="link">用户协议</a><span>|</span>
+						客服电话：<span class="tel">4006-888-887</span>（每天9:00 - 22:00）
+					</div>
+					<div class="site-info">
+						<span class="copyright">©</span>2015&nbsp;nuomi.com&nbsp;<a href="http://www.miitbeian.gov.cn" class="link" target="_blank">京ICP证030173号</a>
+						&nbsp;京公网安备11010802014106号
+					</div>
+				</div>
+			</div>
+		</div>
+		
+	</body>
+</html>

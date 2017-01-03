@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>个人注册</title>
+		<link rel="stylesheet" type="text/css" href="css/reset.css"/>
+		<link rel="stylesheet" type="text/css" href="css/chenggong.css"/>
+	</head>
+	<body>
+		<div id="zhuce_body">
+			<div id="zhuce_head_bg">
+				<img src="img/zhuce/logo-nuomi.png"/>
+				<p>注册百度账号</p>
+			</div>
+			<hr style="height:1px;border:none;border-top:1px solid #DFDFDF" />
+			
+			<div class="info-wrap">
+		        <div class="i-suc"><img src="img/zhuce/right.svg" style="width: 80px;"/></div>
+		        <div class="info-con">
+		            <div class="tit">恭喜，香飘飘奶B</div>
+		            <div class="tit">已注册成功</div>
+		            <div class="go-new">
+		                <a href="index.html">去首页 </a>
+		            </div>
+		        </div>
+		    </div>
+			
+			
+			
+			<div class="w-footer-mini">
+				<div class="wrap">
+					<div class="links">
+						<a href="//www.nuomi.com/about" class="link">关于百度糯米</a><span>|</span>
+						<a href="//www.nuomi.com/help" class="link">常见问题</a><span>|</span>
+						<a href="javascript:;" class="link" id="j-tttel">违规投诉&amp;廉政举报</a><span>|</span>
+						<a href="//www.nuomi.com/help/api" class="link">开放平台</a><span>|</span>
+						<a href="//www.nuomi.com/about/eula" class="link">用户协议</a><span>|</span>
+						客服电话：<span class="tel">4006-888-887</span>（每天9:00 - 22:00）
+					</div>
+					<div class="site-info">
+						<span class="copyright">©</span>2015&nbsp;nuomi.com&nbsp;<a href="http://www.miitbeian.gov.cn" class="link" target="_blank">京ICP证030173号</a>
+						&nbsp;京公网安备11010802014106号
+					</div>
+				</div>
+			</div>
+		</div>	
+	</body>
+</html>
